@@ -1,0 +1,20 @@
+Letter grade for 8students given in input_final.txt is: 
+
+Thui Bhu	A
+Ariana B. Smith	A
+Emily Gonzales	B
+Jennifer L	B
+Maria Jones	D
+Bill Gates	F
+Escobar Morris	C
+Anne Latner	B
+Letter grade for 8students given in input_final.txt is: 
+
+Anne Latner	B
+Ariana B. Smith	A
+Bill Gates	F
+Emily Gonzales	B
+Escobar Morris	C
+Jennifer L	B
+Maria Jones	D
+Thui Bhu	A

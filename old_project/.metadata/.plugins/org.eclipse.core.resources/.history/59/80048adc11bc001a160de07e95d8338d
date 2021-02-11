@@ -1,0 +1,36 @@
+
+public class test {
+
+	
+	public static void mergeSort(int[] arr){
+	    int [] aux = new int [arr.length];
+	    sort(arr, aux, 0, arr.length);
+	}
+
+	private static void sort(int[] arr, int[] aux, int lo, int hi){
+	    if (lo >= hi) return;
+	    int mid = lo + (hi - lo)/2;
+	    sort(arr, aux, lo, mid);
+	    sort(arr, aux, mid+1, hi);
+	    merge(arr, aux, lo, mid, hi);
+	}
+
+	private static void merge(int[] arr, int[] aux, int lo, int mid, int hi){
+	    System.arraycopy(arr, 0, aux, 0, arr.length);
+	    int i = lo, j = mid+1;
+	    for(int k = lo; k <= hi; k++){
+	        if(i > mid) arr[k] = aux[j++];
+	        else if(j > hi) arr[k] = aux[i++];
+	        else if (aux[i] > aux[j]) arr[k] = aux[j++];
+	        else arr[k] = aux[i++];
+	    }
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] arr = {45,665,32,31,52,64,89,452};
+		mergeSort(arr);
+		
+	}
+
+}

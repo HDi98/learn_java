@@ -1,0 +1,51 @@
+Letter grade for 9students given in input_final.txtis: 
+Letter grade for 9students given in input_final.txtis: 
+Letter grade for 9students given in input_final.txtis: 
+Letter grade for 9students given in input_final.txtis: 
+Letter grade for 9students given in input_final.txtis: 
+Letter grade for 9students given in input_final.txtis: 
+Letter grade for 9students given in input_final.txtis: 
+Letter grade for 9students given in input_final.txt is: 
+
+Letter grade for 8students given in input_final.txt is: 
+
+Letter grade for 8students given in input_final.txt is: 
+
+Thui Bhu	A
+Ariana B. Smith	A
+Emily Gonzales	B
+Jennifer L	B
+Maria Jones	D
+Bill Gates	F
+Escobar Morris	C
+Anne Latner	B
+Letter grade for 8students given in input_final.txt is: 
+
+Thui Bhu	A
+Ariana B. Smith	A
+Emily Gonzales	B
+Jennifer L	B
+Maria Jones	D
+Bill Gates	F
+Escobar Morris	C
+Anne Latner	B
+Letter grade for 8students given in input_final.txt is: 
+
+Thui Bhu	A
+Ariana B. Smith	A
+Emily Gonzales	B
+Jennifer L	B
+Maria Jones	D
+Bill Gates	F
+Escobar Morris	C
+Anne Latner	B
+Letter grade for 8students given in input_final.txt is: 
+
+Thui Bhu	A
+Ariana B. Smith	A
+Emily Gonzales	B
+Jennifer L	B
+Maria Jones	D
+Bill Gates	F
+Escobar Morris	C
+Anne Latner	B

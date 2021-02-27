@@ -4,12 +4,21 @@ import java.util.Scanner;
 
 public class for_test {
 	
+	public static double calculateArea(int r) {
+		double r_new = (double) r;
+		return 3.14*r*r;
+	}
+	
+	public static double calculateArea(float r) {
+		double r_new = (double) r;
+		return 3.14*r*r;
+	}
+
+	
+	
 	public static void main(String[] args) {
-		String s1 = "Hello ";
-		String s2 = "-16.5";
-		float s3 = Float.parseFloat(s2);
-		s1 = s1.concat(s2);
-		System.out.println(s3);
+		
+		
 	
 	}
 

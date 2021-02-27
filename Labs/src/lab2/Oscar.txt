@@ -1,0 +1,100 @@
+2001,Leading,Russell Crowe , A Beautiful Mind ,John Nash
+2001,Leading,Sean Penn , I Am Sam ,Sam Dawson
+2001,Leading,Will Smith , Ali ,Muhammad Ali
+2001,Leading,Denzel Washington , Training Day ,Alonzo
+2001,Leading,Tom Wilkinson , In the Bedroom ,Matt Fowler
+2001,Supporting,Jim Broadbent , Iris ,John Bayley
+2001,Supporting,Ethan Hawke , Training Day ,Jake
+2001,Supporting,Ben Kingsley , Sexy Beast ,Don Logan
+2001,Supporting,Ian McKellen , The Lord of the Rings: The Fellowship of the Ring ,Gandalf
+2001,Supporting,Jon Voight , Ali ,Howard Cosell
+2002,Leading,Adrien Brody , The Pianist ,Wladyslaw Szpilman
+2002,Leading,Nicolas Cage , Adaptation ,Charlie Kaufman & Donald Kaufman
+2002,Leading,Michael Caine , The Quiet American ,Thomas Fowler
+2002,Leading,Daniel Day-Lewis , Gangs of New York ,Bill 'The Butcher' Cutting
+2002,Leading,Jack Nicholson , About Schmidt ,Warren Schmidt
+2002,Supporting,Chris Cooper , Adaptation ,John Laroche
+2002,Supporting,Ed Harris , The Hours ,Richard Brown
+2002,Supporting,Paul Newman , Road to Perdition ,John Rooney
+2002,Supporting,John C. Reilly , Chicago ,Amos Hart
+2002,Supporting,Christopher Walken , Catch Me If You Can ,Frank Abagnale
+2003,Leading,Johnny Depp , Pirates of the Caribbean: The Curse of the Black Pearl ,Jack Sparrow
+2003,Leading,Ben Kingsley , House of Sand and Fog ,Behrani
+2003,Leading,Jude Law , Cold Mountain ,Inman
+2003,Leading,Bill Murray , Lost in Translation ,Bob Harris
+2003,Leading,Sean Penn , Mystic River ,Jimmy Markum
+2003,Supporting,Alec Baldwin , The Cooler ,Shelly Kaplow
+2003,Supporting,Benicio Del Toro , 21 Grams ,Jack Jordan
+2003,Supporting,Djimon Hounsou , In America ,Mateo
+2003,Supporting,Tim Robbins , Mystic River ,Dave Boyle
+2003,Supporting,Ken Watanabe , The Last Samurai ,Katsumoto
+2004,Leading,Don Cheadle , Hotel Rwanda ,Paul Rusesabagina
+2004,Leading,Johnny Depp , Finding Neverland ,Sir James Matthew Barrie
+2004,Leading,Leonardo DiCaprio , The Aviator ,Howard Hughes
+2004,Leading,Clint Eastwood , Million Dollar Baby ,Frankie Dunn
+2004,Leading,Jamie Foxx , Ray ,Ray Charles
+2004,Supporting,Alan Alda , The Aviator ,Senator Ralph Owen Brewster
+2004,Supporting,Thomas Haden Church , Sideways ,Jack
+2004,Supporting,Jamie Foxx , Collateral ,Max
+2004,Supporting,Morgan Freeman , Million Dollar Baby ,Eddie Scrap-Iron Dupris
+2004,Supporting,Clive Owen , Closer ,Larry
+2005,Leading,Philip Seymour Hoffman , Capote ,Truman Capote
+2005,Leading,Terrence Howard , Hustle & Flow ,DJay
+2005,Leading,Heath Ledger , Brokeback Mountain ,Ennis Del Mar
+2005,Leading,Joaquin Phoenix , Walk the Line ,John R. Cash
+2005,Leading,David Strathairn , Good Night and Good Luck. ,Edward R. Murrow
+2005,Supporting,George Clooney , Syriana ,Bob Barnes
+2005,Supporting,Matt Dillon , Crash ,Officer Ryan
+2005,Supporting,Paul Giamatti , Cinderella Man ,Joe Gould
+2005,Supporting,Jake Gyllenhaal , Brokeback Mountain ,Jack Twist
+2005,Supporting,William Hurt , A History of Violence ,Richie Cusack
+2006,Leading,Leonardo DiCaprio , Blood Diamond ,Danny Archer
+2006,Leading,Ryan Gosling , Half Nelson ,Dan Dunne
+2006,Leading,Peter O'Toole , Venus ,Maurice
+2006,Leading,Will Smith , The Pursuit of Happyness ,Chris Gardner
+2006,Leading,Forest Whitaker , The Last King of Scotland ,Idi Amin
+2006,Supporting,Alan Arkin , Little Miss Sunshine ,Grandpa
+2006,Supporting,Jackie Earle Haley , Little Children ,Ronnie J. McGorvey
+2006,Supporting,Djimon Hounsou , Blood Diamond ,Solomon Vandy
+2006,Supporting,Eddie Murphy , Dreamgirls ,James 'Thunder' Early
+2006,Supporting,Mark Wahlberg , The Departed ,Dignam
+2007,Leading,George Clooney , Michael Clayton ,Michael Clayton
+2007,Leading,Daniel Day-Lewis , There Will Be Blood ,Daniel Plainview
+2007,Leading,Johnny Depp , Sweeney Todd The Demon Barber of Fleet Street ,Sweeney Todd
+2007,Leading,Tommy Lee Jones , In the Valley of Elah ,Hank Deerfield
+2007,Leading,Viggo Mortensen , Eastern Promises ,Nikolai
+2007,Supporting,Casey Affleck , The Assassination of Jesse James by the Coward Robert Ford ,Robert Ford
+2007,Supporting,Javier Bardem , No Country for Old Men ,Anton Chigurh
+2007,Supporting,Philip Seymour Hoffman , Charlie Wilson's War ,Gust Avrakotos
+2007,Supporting,Hal Holbrook , Into the Wild ,Ron Franz
+2007,Supporting,Tom Wilkinson , Michael Clayton ,Arthur Edens
+2008,Leading,Richard Jenkins , The Visitor ,Walter
+2008,Leading,Frank Langella , Frost/Nixon ,Richard Nixon
+2008,Leading,Sean Penn , Milk ,Harvey Milk
+2008,Leading,Brad Pitt , The Curious Case of Benjamin Button ,Benjamin Button
+2008,Leading,Mickey Rourke , The Wrestler ,Randy
+2008,Supporting,Josh Brolin , Milk ,Dan White
+2008,Supporting,Robert Downey Jr. , Tropic Thunder ,Kirk Lazarus
+2008,Supporting,Philip Seymour Hoffman , Doubt ,Father Brendan Flynn
+2008,Supporting,Heath Ledger , The Dark Knight ,Joker
+2008,Supporting,Michael Shannon , Revolutionary Road ,John Givings
+2009,Leading,Jeff Bridges , Crazy Heart ,Bad Blake
+2009,Leading,George Clooney , Up in the Air ,Ryan Bingham
+2009,Leading,Colin Firth , A Single Man ,George
+2009,Leading,Morgan Freeman , Invictus ,Nelson Mandela
+2009,Leading,Jeremy Renner , The Hurt Locker ,Staff Sergeant William James
+2009,Supporting,Matt Damon , Invictus ,Francois Pienaar
+2009,Supporting,Woody Harrelson , The Messenger ,Captain Tony Stone
+2009,Supporting,Christopher Plummer , The Last Station ,Tolstoy
+2009,Supporting,Stanley Tucci , The Lovely Bones ,George Harvey
+2009,Supporting,Christoph Waltz , Inglourious Basterds ,Col. Hans Landa
+2010,Leading,Javier Bardem , Biutiful ,Uxbal
+2010,Leading,Jeff Bridges , True Grit ,Rooster Cogburn
+2010,Leading,Jesse Eisenberg , The Social Network ,Mark Zuckerberg
+2010,Leading,Colin Firth , The King's Speech ,King George VI
+2010,Leading,James Franco , 127 Hours ,Aron Ralston
+2010,Supporting,Christian Bale , The Fighter ,Dicky Eklund
+2010,Supporting,John Hawkes , Winter's Bone ,Teardrop
+2010,Supporting,Jeremy Renner , The Town ,James Coughlin
+2010,Supporting,Mark Ruffalo , The Kids Are All Right ,Paul
+2010,Supporting,Geoffrey Rush , The King's Speech ,Lionel Logue

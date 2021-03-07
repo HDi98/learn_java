@@ -1,0 +1,6 @@
+Good to Great; Jim Collins; 300; Harper Business;
+Outliers; Malcolm Gladwell; 336; Back Bay Books;
+Blink; Malcolm Gladwell; 296; Back Bay Books;
+The 7 Habits of Highly Effective People; Stephen Covey; 432; Simon & Schuster;
+Core Java Volume 1; Cay S. Horstmann, Gary Cornell; 836; Prentice Hall; 
+Core Java Volume 2; Cay S. Horstmann, Gary Cornell; 1152; Prentice Hall; 

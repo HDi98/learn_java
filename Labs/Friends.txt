@@ -1,0 +1,5 @@
+Alice: Bob, Joe, Sara, Frank, Nancy
+Bob: Alice, Nancy, Peter, Steve, Frank, Tim, Amy
+Charles: Sara, Kevin, Peter, Steve
+David: Steve, Amy
+Frank: Alice, Bob, Mary

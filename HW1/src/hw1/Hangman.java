@@ -109,11 +109,8 @@ public class Hangman extends Game {
 		if (userInputs.length() >= HANGMAN_TRIALS) {
 			return LOST_MESSAGE_INDEX;
 		}*/
-		if (userInputs.indexOf(Character.toString(guess)) != -1) {
-			//userInputs.append(guess);
-			return ALREADY_ENTERED_MESSAGE_INDEX;
-		}
-		else if (hangmanRound.getPuzzleWord().contains(Character.toString(guess))) {
+	
+		if (hangmanRound.getPuzzleWord().contains(Character.toString(guess))) {
 			
 			if (hangmanRound.getClueWord().contains(Character.toString(guess))) {
 				return PART_OF_CLUE_MESSAGE_INDEX;
@@ -133,7 +130,10 @@ public class Hangman extends Game {
 				return RIGHT_MESSAGE_INDEX;
 			}
 		}
-				
+		else if (userInputs.indexOf(Character.toString(guess)) != -1) {
+			//userInputs.append(guess);
+			return ALREADY_ENTERED_MESSAGE_INDEX;
+		}		
 		else {
 			userInputs.append(guess);
 			hangmanRound.setMissCount(hangmanRound.getMissCount()+1);

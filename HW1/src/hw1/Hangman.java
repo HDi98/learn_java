@@ -57,7 +57,7 @@ public class Hangman extends Game {
 		//write your code here
 		int choiceIndex = (int) (Math.random() * Game.wordsFromFile.length);
 		hangmanRound.setPuzzleWord(Game.wordsFromFile[choiceIndex]);
-		System.out.println(Game.wordsFromFile[choiceIndex]);
+		//System.out.println(Game.wordsFromFile[choiceIndex]);
 		return Game.wordsFromFile[choiceIndex];
 	}
 
@@ -82,12 +82,14 @@ public class Hangman extends Game {
 			int sign = nextTry(guess, userInputs);
 			System.out.println(messagesArray[sign]);
 			if (countDashes(hangmanRound.getClueWord()) == 0) {
+				System.out.println("The word is: " + hangmanRound.getPuzzleWord());
 				System.out.println(messagesArray[CONGRATULATIONS_MESSAGE_INDEX]);
 				break;
 			}
 		}
 		input.close();
 		if (countDashes(hangmanRound.getClueWord()) != 0) {
+			System.out.println("The word is: " + hangmanRound.getPuzzleWord());
 			System.out.println(messagesArray[LOST_MESSAGE_INDEX]);
 		}
 		System.out.println("Your score is " + getScore());
@@ -107,22 +109,16 @@ public class Hangman extends Game {
 		if (userInputs.length() >= HANGMAN_TRIALS) {
 			return LOST_MESSAGE_INDEX;
 		}*/
-		if (hangmanRound.getPuzzleWord().contains(Character.toString(guess))) {
+		if (userInputs.indexOf(Character.toString(guess)) != -1) {
+			//userInputs.append(guess);
+			return ALREADY_ENTERED_MESSAGE_INDEX;
+		}
+		else if (hangmanRound.getPuzzleWord().contains(Character.toString(guess))) {
 			
 			if (hangmanRound.getClueWord().contains(Character.toString(guess))) {
-				if (userInputs.indexOf(Character.toString(guess)) != -1) {
-					//userInputs.append(guess);
-					return ALREADY_ENTERED_MESSAGE_INDEX;
-				}
-				else {
-					//userInputs.append(guess);
-					return PART_OF_CLUE_MESSAGE_INDEX;
-				}
-				
+				return PART_OF_CLUE_MESSAGE_INDEX;
 			}
-			else {
-				
-				
+			else {								
 				userInputs.append(guess);
 				hangmanRound.setHitCount(hangmanRound.getHitCount()+1);
 				//update clueWord
@@ -166,7 +162,7 @@ public class Hangman extends Game {
 			}
 			String tmp = Character.toString(p.charAt(rand));
 			// test code
-			System.out.println(tmp);
+			//System.out.println(tmp);
 			p.setCharAt(rand, '-');
 			cnt++;
 			while (p.indexOf(tmp) != -1) {
@@ -177,7 +173,7 @@ public class Hangman extends Game {
 				
 		// need to improve the behavior, to avoid such case: apple --> appl- --> app-- --> a----
 		//test code
-		System.out.println(p.toString());
+		//System.out.println(p.toString());
 		hangmanRound.setClueWord(p.toString());
 		return p.toString();
 	}

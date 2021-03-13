@@ -2,13 +2,11 @@ package test_only;
 
 public class test1 {
 
-	String name;
-	public void test1(String name) {
-		this.name = name;
-	}
-	
-    public void speak() {
-    	System.out.println("Hello World");
-    };
+	public int length;
 
+	public test1(int length) { this.length = length;}
+	
+    public test1() {
+    	
+    }
 }

@@ -1,3 +1,5 @@
+//author: Haonan Di
+//author andrew id: hdi
 package hw1;
 
 import java.util.Scanner;
@@ -55,10 +57,13 @@ public class Hangman extends Game {
 	@Override
 	String findPuzzleWord() {
 		//write your code here
-		int choiceIndex = (int) (Math.random() * Game.wordsFromFile.length);
-		hangmanRound.setPuzzleWord(Game.wordsFromFile[choiceIndex]);
-		//System.out.println(Game.wordsFromFile[choiceIndex]);
-		return Game.wordsFromFile[choiceIndex];
+		while (true) {
+			int choiceIndex = (int) (Math.random() * Game.wordsFromFile.length);
+			if (Game.wordsFromFile[choiceIndex].length() <= MAX_WORD_LENGTH && Game.wordsFromFile[choiceIndex].length() >= MIN_WORD_LENGTH) {
+				hangmanRound.setPuzzleWord(Game.wordsFromFile[choiceIndex]);
+				return Game.wordsFromFile[choiceIndex];
+			}
+		}
 	}
 
 	//Runs a complete round, invoking nextTry() for each guess to be made by the player
@@ -70,17 +75,19 @@ public class Hangman extends Game {
 	void playRound() {
 		//write your code here
 		
-		int cnt = 0;
+		int cnt = 1;
 		StringBuilder userInputs = new StringBuilder();
 		Scanner input = new Scanner(System.in);
 		//begin the round
-		while (cnt < HANGMAN_TRIALS) {
-			cnt++;
+		while (cnt <= HANGMAN_TRIALS) {
 			System.out.println("The clue is: " + hangmanRound.getClueWord());
-			System.out.println("***Trial# " + cnt + ". Enter your guess: " );
+			System.out.print("***Trial# " + cnt + ". Enter your guess: " );
 			char guess = input.next().charAt(0);
 			int sign = nextTry(guess, userInputs);
 			System.out.println(messagesArray[sign]);
+			if (sign == RIGHT_MESSAGE_INDEX || sign == WRONG_MESSAGE_INDEX) {
+				cnt ++;
+			}
 			if (countDashes(hangmanRound.getClueWord()) == 0) {
 				System.out.println("The word is: " + hangmanRound.getPuzzleWord());
 				System.out.println(messagesArray[CONGRATULATIONS_MESSAGE_INDEX]);

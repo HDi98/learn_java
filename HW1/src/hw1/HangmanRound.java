@@ -1,3 +1,5 @@
+//author: Haonan Di
+//author andrew id: hdi
 package hw1;
 
 public class HangmanRound extends GameRound{

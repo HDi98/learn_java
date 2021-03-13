@@ -1,3 +1,5 @@
+//author: Haonan Di
+//author andrew id: hdi
 package hw1;
 
 import java.util.Scanner; 

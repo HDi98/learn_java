@@ -3,9 +3,9 @@ package test_only;
 public class test2 extends test1{
 
 	
-    public void speak() {
+    public test2() {
 
-           System.out.println("Bark");
+           this.length = 0;
 
     }
 

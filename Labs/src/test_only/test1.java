@@ -1,12 +1,8 @@
 package test_only;
 
-public class test1 {
+public abstract class test1 {
 
-	public int length;
-
-	public test1(int length) { this.length = length;}
-	
-    public test1() {
-    	
+    public void testprint() {
+    	System.out.println("This is test1!");
     }
 }

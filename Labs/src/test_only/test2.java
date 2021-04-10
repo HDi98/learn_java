@@ -2,10 +2,10 @@ package test_only;
 
 public class test2 extends test1{
 
-	
-    public test2() {
+	@Override
+    public void testprint() {
 
-           this.length = 0;
+           System.out.println("This is test2");
 
     }
 

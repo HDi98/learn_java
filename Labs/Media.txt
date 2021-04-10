@@ -1,0 +1,10 @@
+Book, Enlightenment Now, Steven Pinker, 576, 2018
+Movie, Inception, Christopher Nolan, 148, 2010
+movie, A Wrinkle in Time, Ava DuVernay, 109, 2018
+book, Post-truth, Lee Mcintyre, 240, 2018
+EBook, How the mind works, Steven Pinker, 672, 1997, pdf, 100
+Movie, Dunkirk, Christopher Nolan, 106, 2017
+movie, Selma, Ava DuVernay, 128, 2014
+Book, The Death of Democracy, Benjamin Carter Hett, 304, 2018
+Movie, Darkest Hour, Joe Wright, 125, 2017
+eBook, The Cave and the Light, Arthur Herman, 704, 2014, txt, 150

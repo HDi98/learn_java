@@ -1,0 +1,2 @@
+This is a sample file.
+This file will be used to test the word-count, text-search, and text-replace features in Text Editor program's first version. 

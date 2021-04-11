@@ -1,5 +1,7 @@
 package hw2;
 
+import java.util.ArrayList;
+
 import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
@@ -144,10 +146,16 @@ public class TwisterView extends GameView{
 		clueButtons = new Button[gameRound.getClueWord().length()];
 		answerButtons = new Button[gameRound.getClueWord().length()];
 		
+		topMessageText.setText("Twist to find " + Integer.toString(((TwisterRound) gameRound).getSolutionWordsList().size()) + " words");
 		clueGrid.getChildren().clear();  //clear components from the previous game round
 		for(int i = 0; i < gameRound.getClueWord().length(); i++) {
+			clueButtons[i] = new Button();
+			answerButtons[i] = new Button();
 			clueButtons[i].setText(Character.toString(gameRound.getClueWord().charAt(i)));
+			answerButtons[i].setText("");
 			clueGrid.add(clueButtons[i], i, 0);
+			clueGrid.add(answerButtons[i], i, 1);
+			
 		}
 				
 		//invoke setupButtons method 
@@ -155,6 +163,31 @@ public class TwisterView extends GameView{
 		
 		// refresh the bottomgrid
 		// just refresh(clear + set new) the wordScoreLabels and clear the solutionListViews
+		setupBottomGrid();  //clear components from the previous game round
+		ArrayList<Integer> index_notnull = new ArrayList<>();
+		for (int i = 0; i < wordScoreLabels.length; i++ ) {
+			wordScoreLabels[i].setText(String.format("%d/%d", ((TwisterRound) gameRound).getSubmittedListsByWordLength(i).size(), ((TwisterRound) gameRound).getSolutionListsByWordLength(i).size()));
+			solutionListViews[i].setItems(null);
+			if (((TwisterRound) gameRound).getSolutionListsByWordLength(i).size() != 0){
+				index_notnull.add(i);
+			}
+			
+		}
 		
+		// reset the bottomGrid
+		bottomGrid.getChildren().clear();
+//		bottomGrid.setAlignment(Pos.CENTER);
+//		bottomGrid.setVgap(5);
+//		bottomGrid.setMinSize(700, 300);
+		int pos = 0;
+		for (Integer k: index_notnull) {
+			System.out.println(k);
+			bottomGrid.add(solutionListViews[k], 1, pos);
+			bottomGrid.add(wordLengthLabels[k], 0, pos);
+			bottomGrid.add(wordScoreLabels[k], 2, pos);
+			
+			
+			pos++;
+		}
 	}
 }

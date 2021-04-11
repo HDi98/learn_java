@@ -8,7 +8,7 @@ public class Hangman extends Game{
 	static final int HANGMAN_TRIALS = 10;  // max number of trials in a game
 	static final int HANGMAN_GAME_TIME = 30; // max time in seconds for one round of game
 	
-	HangmanRound hangmanRound = new HangmanRound();
+	HangmanRound hangmanRound;
 	
 	/** setupRound() is a replacement of findPuzzleWord() in HW1. 
 	 * It returns a new HangmanRound instance with puzzleWord initialized randomly drawn from wordsFromFile.
@@ -19,6 +19,7 @@ public class Hangman extends Game{
 	HangmanRound setupRound() {
 		//write your code here
 		//Initialize the puzzleword
+		hangmanRound = new HangmanRound();
 		while (true) {
 			int choiceIndex = (int) (Math.random() * WordNerdModel.wordsFromFile.length);
 			if (WordNerdModel.wordsFromFile[choiceIndex].length() <= MAX_WORD_LENGTH && WordNerdModel.wordsFromFile[choiceIndex].length() >= MIN_WORD_LENGTH) {
@@ -26,6 +27,7 @@ public class Hangman extends Game{
 				break;
 			}
 		}
+		
 		hangmanRound.setClueWord(makeAClue(hangmanRound.getPuzzleWord()));
 		hangmanRound.setHitCount(0);
 		hangmanRound.setMissCount(0);
@@ -73,10 +75,10 @@ public class Hangman extends Game{
 	/** countDashes() returns the number of dashes in a clue String */ 
 	int countDashes(String word) {
 		StringBuilder cntDash = new StringBuilder(word);
-		int init = cntDash.indexOf("_");
+		int init = cntDash.indexOf("-");
 		int cnt = 0;
 		while (init != -1) {
-			init = cntDash.indexOf("_", init+1);
+			init = cntDash.indexOf("-", init+1);
 			cnt++;
 		}
 		return cnt;
@@ -92,11 +94,11 @@ public class Hangman extends Game{
 		if (miscnt == 0) {
 			// only have two decimal
 			
-			return Float.toString((Math.round(hitcnt*100))/100);
+			return "Hit: " + hangmanRound.getHitCount() + " Miss: " + hangmanRound.getMissCount() + ". Score: " + String.format("%.2f", (float)(Math.round(hitcnt*100))/100);
 		}
 		else {
 			
-			return Float.toString((Math.round(hitcnt/miscnt*100))/100);
+			return "Hit: " + hangmanRound.getHitCount() + " Miss: " + hangmanRound.getMissCount() + ". Score: " + String.format("%.2f", (float)(Math.round(hitcnt/miscnt*100))/100);
 		}
 	}
 	
@@ -109,15 +111,42 @@ public class Hangman extends Game{
 	int nextTry(String guess) {
 		
 		//Since those are banned: same with former input / input which contains in puzzleword	
+		if (guess.equals("")) {
+			return GameView.SMILEY_INDEX;
+		}
+		
+		
 		if (hangmanRound.getPuzzleWord().contains(guess) && !hangmanRound.getClueWord().contains(guess)) {
 			hangmanRound.setHitCount(hangmanRound.getHitCount() + 1);
+			//update clueWord
+			int leng = hangmanRound.getPuzzleWord().length();
+			StringBuilder clueNew = new StringBuilder(hangmanRound.getClueWord());
+			for(int i = 0; i < leng; i++) {
+				if (Character.toString(hangmanRound.getPuzzleWord().charAt(i)).equals(guess)) {
+					clueNew.setCharAt(i, guess.charAt(0));
+				}
+			}
+			hangmanRound.setClueWord(clueNew.toString());
+
+			if (countDashes(hangmanRound.getClueWord()) == 0) {
+				return GameView.SMILEY_INDEX;
+			}
+			
+			if (hangmanRound.getHitCount() + hangmanRound.getMissCount() == HANGMAN_TRIALS) {
+				return GameView.SADLY_INDEX;
+			}
+			
 			return GameView.THUMBS_UP_INDEX;
 			
 		}
 		else {
 			hangmanRound.setMissCount(hangmanRound.getMissCount() + 1);
+			if (hangmanRound.getHitCount() + hangmanRound.getMissCount() == HANGMAN_TRIALS) {
+				return GameView.SADLY_INDEX;
+			}
 			return GameView.THUMBS_DOWN_INDEX;
 		}
-			
+		
+		
 	}
 }

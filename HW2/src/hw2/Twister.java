@@ -22,10 +22,39 @@ public class Twister extends Game{
 	
 	TwisterRound twisterRound;
 	
+	
 	List<String> findSolutions(String puzzleWord){
 		List<String> solutionPuzzle = new ArrayList<>();
+		
+		int [] puzzleCount = new int[26];
+		// char a == int 97
+		for(int i = 0; i < 26; i++) {
+			puzzleCount[i] = 0;
+		}
+		for(char c: puzzleWord.toCharArray()) {
+			int tmp = (int)c - 97;
+			puzzleCount[tmp]++;
+		}
+		
 		for (String s: WordNerdModel.wordsFromFile) {
-			if (puzzleWord.contains(s)) {
+			int signal = 1;
+			
+			int [] sCount = new int[26];
+			for(int i = 0; i < 26; i++) {
+				sCount[i] = 0;
+			}			
+			for(char c: s.toCharArray()) {
+				int tmp = (int)c - 97;
+				sCount[tmp]++;
+			}
+			for (int i = 0; i < 26; i++) {
+				if (puzzleCount[i] < sCount[i]) {
+					signal = 0;
+					break;
+				}
+			}
+			
+			if (signal == 1 && s.length() >= TWISTER_MIN_WROD_LENGTH && s.length() <= TWISTER_MAX_WROD_LENGTH) {
 				solutionPuzzle.add(s);
 			}
 		}
@@ -59,6 +88,7 @@ public class Twister extends Game{
 	}
 
 	@Override
+	// shuffle the clueword
 	String makeAClue(String puzzleWord) {
 		// TODO Auto-generated method stub
 		List<String> tmpCharArray = new ArrayList<>();
@@ -81,6 +111,7 @@ public class Twister extends Game{
 		for (ObservableList<String> o: twisterRound.submittedListsByWordLength) {
 			out += o.size();
 		}
+		out = twisterRound.solutionWordsList.size() - out;
 		return "Twist to find " + Integer.toString(out) + " of " + Integer.toString(twisterRound.solutionWordsList.size()) + " words";
 	}
 
@@ -91,14 +122,18 @@ public class Twister extends Game{
 		if (twisterRound.getSolutionWordsList().contains(guess)) {
 			
 			if (twisterRound.getSubmittedListsByWordLength(tmpleng).contains(guess)) {
-				return GameView.THUMBS_UP_INDEX;
+				return GameView.REPEAT_INDEX;
 			}
 			else {
 				twisterRound.setSubmittedListsByWordLength(guess);
-				return GameView.REPEAT_INDEX;
+				//twisterRound.setSolutionListsByWordLength(guess);
+				return GameView.THUMBS_UP_INDEX;
 			}
 		}
 		else {
+//			if (guess.length() >=  TWISTER_MIN_WROD_LENGTH && guess.length() <= TWISTER_MAX_WROD_LENGTH) {
+//				twisterRound.setSubmittedListsByWordLength(guess);
+//			}			
 			return GameView.THUMBS_DOWN_INDEX;
 		}
 	}

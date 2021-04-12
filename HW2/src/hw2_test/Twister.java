@@ -1,6 +1,6 @@
 //name: haonan di
 //andrew id: hdi
-package hw2;
+package hw2_test;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,14 +26,11 @@ public class Twister extends Game{
 	
 	
 	List<String> findSolutions(String puzzleWord){
-		// my own defined method to find the words which can be twisted out of the current puzzleWord
 		List<String> solutionPuzzle = new ArrayList<>();
 		
-		// use length-26 array to store the word count for both puzzleWord and the candidate word
 		int [] puzzleCount = new int[26];
 		// char a == int 97
 		for(int i = 0; i < 26; i++) {
-			// initialize the length-26 array
 			puzzleCount[i] = 0;
 		}
 		for(char c: puzzleWord.toCharArray()) {
@@ -46,7 +43,6 @@ public class Twister extends Game{
 			
 			int [] sCount = new int[26];
 			for(int i = 0; i < 26; i++) {
-				// initialize the length-26 array for candidate word
 				sCount[i] = 0;
 			}			
 			for(char c: s.toCharArray()) {
@@ -55,12 +51,11 @@ public class Twister extends Game{
 			}
 			for (int i = 0; i < 26; i++) {
 				if (puzzleCount[i] < sCount[i]) {
-					// signal = 0 if any word count in candidate word > puzzleWord
 					signal = 0;
 					break;
 				}
 			}
-			// check if candidate can be included in the solution list: length and signal
+			
 			if (signal == 1 && s.length() >= TWISTER_MIN_WROD_LENGTH && s.length() <= TWISTER_MAX_WROD_LENGTH) {
 				solutionPuzzle.add(s);
 			}
@@ -70,7 +65,8 @@ public class Twister extends Game{
 	
 	@Override
 	TwisterRound setupRound() {
-		// find a new puzzleWord and initial the twisterRound
+		// TODO Auto-generated method stub
+		// first part: find a new puzzleWord
 		while (true) {
 			int choiceIndex = (int) (Math.random() * WordNerdModel.wordsFromFile.length);
 			if (WordNerdModel.wordsFromFile[choiceIndex].length() <= TWISTER_MAX_WROD_LENGTH && WordNerdModel.wordsFromFile[choiceIndex].length() >= TWISTER_MIN_WROD_LENGTH) {
@@ -96,7 +92,7 @@ public class Twister extends Game{
 	@Override
 	// shuffle the clueword
 	String makeAClue(String puzzleWord) {
-		// use Collections.shuffle api to help implement this method
+		// TODO Auto-generated method stub
 		List<String> tmpCharArray = new ArrayList<>();
 		for (char c: puzzleWord.toCharArray()) {
 			tmpCharArray.add(Character.toString(c));
@@ -112,32 +108,34 @@ public class Twister extends Game{
 
 	@Override
 	String getScoreString() {
-		// score = total - submitted
+		// TODO Auto-generated method stub
 		int out = 0;
 		for (ObservableList<String> o: twisterRound.submittedListsByWordLength) {
 			out += o.size();
 		}
-		// get the total submitted length
 		out = twisterRound.solutionWordsList.size() - out;
 		return "Twist to find " + Integer.toString(out) + " of " + Integer.toString(twisterRound.solutionWordsList.size()) + " words";
 	}
 
 	@Override
 	int nextTry(String guess) {
-		// return the index for guess
+		// TODO Auto-generated method stub
 		int tmpleng = guess.length() - TWISTER_MIN_WROD_LENGTH;
 		if (twisterRound.getSolutionWordsList().contains(guess)) {
+			
 			if (twisterRound.getSubmittedListsByWordLength(tmpleng).contains(guess)) {
 				return GameView.REPEAT_INDEX;
 			}
 			else {
-				// add to submitted list: true && already submitted
-				twisterRound.setSubmittedListsByWordLength(guess);			
+				twisterRound.setSubmittedListsByWordLength(guess);
+				//twisterRound.setSolutionListsByWordLength(guess);
 				return GameView.THUMBS_UP_INDEX;
 			}
 		}
 		else {
-			// if wrong submission, whether submitted must be considered as thumbs down
+//			if (guess.length() >=  TWISTER_MIN_WROD_LENGTH && guess.length() <= TWISTER_MAX_WROD_LENGTH) {
+//				twisterRound.setSubmittedListsByWordLength(guess);
+//			}			
 			return GameView.THUMBS_DOWN_INDEX;
 		}
 	}

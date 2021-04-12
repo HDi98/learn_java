@@ -1,6 +1,6 @@
 //name: haonan di
 //andrew id: hdi
-package hw2;
+package hw2_test;
 
 import java.util.ArrayList;
 
@@ -144,7 +144,7 @@ public class TwisterView extends GameView{
 	/**refreshGameRoundView() clears up previous game round and 
 	 * refreshes all components with info in the new gameRound */
 	void refreshGameRoundView(GameRound gameRound) {
-		//refresh and setup the topgrid things
+		//refresh and set the topgrid things
 		clueButtons = new Button[gameRound.getClueWord().length()];
 		answerButtons = new Button[gameRound.getClueWord().length()];
 		

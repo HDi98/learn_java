@@ -1,6 +1,6 @@
 //name: haonan di
 //andrew id: hdi
-package hw2;
+package hw2_test;
 
 import java.util.List;
 
@@ -36,6 +36,7 @@ public class TwisterRound extends GameRound{
 	
 // part2 submitted list
 	public ObservableList<ObservableList<String>> getSubmittedListsByWordLength() {
+		// this function is not appear in the design paradigm, so I just return an list of lists
 		return submittedListsByWordLength;
 	}	
 	public ObservableList<String> getSubmittedListsByWordLength(int letterCount) {

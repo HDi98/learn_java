@@ -1,3 +1,5 @@
+//name: haonan di
+//andrew id: hdi
 package hw2;
 
 public class ScoreController extends WordNerdController{

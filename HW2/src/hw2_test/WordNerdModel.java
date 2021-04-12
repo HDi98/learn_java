@@ -1,13 +1,13 @@
 //name: haonan di
 //andrew id: hdi
-package hw2;
+package hw2_test;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class WordNerdModel {
-	// this method is derived from my hw1
+
 	public static String[] wordsFromFile;
 	public static String WORDS_FILE_NAME = "data/wordsFile.txt";
 	
@@ -20,6 +20,7 @@ public class WordNerdModel {
 			}
 			wordsFromFile = fileContent.toString().split("\n");
 		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

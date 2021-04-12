@@ -1,6 +1,6 @@
 //name: haonan di
 //andrew id: hdi
-package hw2;
+package hw2_test;
 
 
 
@@ -29,7 +29,7 @@ public class Hangman extends Game{
 				break;
 			}
 		}
-		// initialize the new hangmanRound
+		
 		hangmanRound.setClueWord(makeAClue(hangmanRound.getPuzzleWord()));
 		hangmanRound.setHitCount(0);
 		hangmanRound.setMissCount(0);
@@ -45,14 +45,13 @@ public class Hangman extends Game{
 	* For example, in 'apple', if replacing p, then both 'p's need to be replaced to make it a--le */
 	@Override
 	String makeAClue(String puzzleWord) {
-		// this part of code is derived from my hw1
+		//write your code here
 		// in order to make it fun, we generate random selected char from puzzleWord to finish this session
 		int leng = puzzleWord.length();
 		int cnt = 0;
 		int rand;
 		StringBuilder p = new StringBuilder(puzzleWord);
 		while (cnt < (leng+1) / 2){
-			// generating a random number
 			rand = (int)(Math.random() * leng);
 			while (p.charAt(rand) == '-') {
 				// if already hash the char, then re-generate the key
@@ -81,7 +80,6 @@ public class Hangman extends Game{
 		int init = cntDash.indexOf("-");
 		int cnt = 0;
 		while (init != -1) {
-			// begin from the index to find the next -
 			init = cntDash.indexOf("-", init+1);
 			cnt++;
 		}
@@ -92,6 +90,7 @@ public class Hangman extends Game{
 	 * each trial in Hangman. See the handout and the video clips for specific format of the string. */
 	@Override
 	String getScoreString() {
+		//write your code here
 		float hitcnt = (float)hangmanRound.getHitCount();
 		float miscnt = (float)hangmanRound.getMissCount();
 		if (miscnt == 0) {
@@ -114,14 +113,12 @@ public class Hangman extends Game{
 	int nextTry(String guess) {
 		
 		//Since those are banned: same with former input / input which contains in puzzleword	
-		//this is unused
 		if (guess.equals("")) {
 			return GameView.SMILEY_INDEX;
 		}
 		
 		
 		if (hangmanRound.getPuzzleWord().contains(guess) && !hangmanRound.getClueWord().contains(guess)) {
-			// actually the second part is not necessary
 			hangmanRound.setHitCount(hangmanRound.getHitCount() + 1);
 			//update clueWord
 			int leng = hangmanRound.getPuzzleWord().length();
@@ -133,11 +130,10 @@ public class Hangman extends Game{
 			}
 			hangmanRound.setClueWord(clueNew.toString());
 
-			//check if win
 			if (countDashes(hangmanRound.getClueWord()) == 0) {
 				return GameView.SMILEY_INDEX;
 			}
-			//or lose
+			
 			if (hangmanRound.getHitCount() + hangmanRound.getMissCount() == HANGMAN_TRIALS) {
 				return GameView.SADLY_INDEX;
 			}
@@ -146,7 +142,6 @@ public class Hangman extends Game{
 			
 		}
 		else {
-			// check if lose
 			hangmanRound.setMissCount(hangmanRound.getMissCount() + 1);
 			if (hangmanRound.getHitCount() + hangmanRound.getMissCount() == HANGMAN_TRIALS) {
 				return GameView.SADLY_INDEX;

@@ -1,6 +1,4 @@
-//name: haonan di
-//andrew id: hdi
-package hw2;
+package hw2_shuwu;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

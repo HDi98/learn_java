@@ -1,6 +1,6 @@
 //name: haonan di
 //andrew id: hdi
-package hw2;
+package hw2_test;
 
 import java.util.ArrayList;
 
@@ -17,7 +17,7 @@ public class TwisterController extends WordNerdController{
 	
 	@Override
 	void startController() {
-		// get the hint from the hangmanController!
+		// copying and modifying from the hangmanController!
 		twisterView = new TwisterView();
 		twister = new Twister();
 		twister.twisterRound = twister.setupRound();
@@ -50,11 +50,11 @@ public class TwisterController extends WordNerdController{
 	
 	@Override
 	void setupBindings() {
-		// get the hint from hangmanController -- setupBindings
+		// copy and modify from hangmanController -- setupBindings
 		
 		//Bind a listener to hangmanRound's clueWordProperty 
 		//so that whenever it changes, the clueLabels should also 
-		//change in twisterView 
+		//change in hangmanView 
 		twister.twisterRound.clueWordProperty().addListener((observable, oldValue, newValue) -> {
 			for (int i = 0; i < twister.twisterRound.getClueWord().length(); i++) {
 				twisterView.clueButtons[i].setText(String.format("%s", newValue.charAt(i)));
@@ -144,9 +144,18 @@ public class TwisterController extends WordNerdController{
 					not_null.add(i);
 					
 				}
+//				else {
+//					String tmp = twisterView.answerButtons[i].getText();
+//					twisterView.answerButtons[i].setText("");
+//					for (int j = 0; j < twister.twisterRound.getClueWord().length(); j++) {
+//						if (twisterView.clueButtons[j].getText().equals("")) {
+//							twisterView.clueButtons[j].setText(tmp);
+//							break;
+//						}
+//					}
+//				}//end of if-else
 			}
 			for (Integer k: not_null) {
-				// return the list of not_null back to the answerButton
 				String tmp = twisterView.answerButtons[k].getText();
 				twisterView.answerButtons[k].setText("");
 				for (int j = 0; j < twister.twisterRound.getClueWord().length(); j++) {
@@ -172,13 +181,15 @@ public class TwisterController extends WordNerdController{
 			String tmpClue1 = tmpClue.toString();
 				
 			
-			// part 2: match the answer button and add tmpClue1 to twisterRound
+			// match the answer button and add tmpClue1 to twisterRound
 			int n = twister.nextTry(tmpClue1);
 			
 			
+			//System.out.println(tmpClue1 + n + "\n" + twister.twisterRound.getPuzzleWord());
+
 			//renew the smiley button
 			twisterView.smileyButton.setGraphic(twisterView.smileyImageViews[n]);
-			// part 3: renew wordScoreLabels: related to solutionListViews
+			// renew wordScoreLabels: *****related to solutionListViews, Unsovable*****
 			int n1 = tmpClue1.length() - Twister.TWISTER_MIN_WROD_LENGTH;
 			switch(n) {
 			case GameView.THUMBS_UP_INDEX:{
@@ -212,13 +223,13 @@ public class TwisterController extends WordNerdController{
 			}
 						
 			
-			// part 4: check if the game ends: seems also related to solutionListViews, count the num
+			// check if the game ends: seems also related to solutionListViews, count the num
 			int count = 0;
 			for (int i = 0; i < twister.twisterRound.getSubmittedListsByWordLength().size(); i++) {
 				count += twister.twisterRound.getSubmittedListsByWordLength(i).size();
 			}
 			if (count == twister.twisterRound.getSolutionWordsList().size()) {
-				// won the game: total length of submitted list == solution list length.  round is over
+				// won the game: round is over
 				GameView.wordTimer.timeline.stop();
 				twister.twisterRound.setIsRoundComplete(true);
 				twisterView.smileyButton.setGraphic(twisterView.smileyImageViews[GameView.SMILEY_INDEX]);
@@ -231,7 +242,7 @@ public class TwisterController extends WordNerdController{
 		@Override
 		public void handle(ActionEvent arg0) {
 			
-			// get the hint from hangmanController newButton
+			// copy and modify from hangmanController newButton
 			twister.twisterRound = twister.setupRound();
 			//twisterView = new TwisterView();
 			twisterView.refreshGameRoundView(twister.twisterRound);
@@ -241,9 +252,9 @@ public class TwisterController extends WordNerdController{
 			
 			
 			//test code, print the list to help check
-//			for (String s: twister.twisterRound.getSolutionWordsList()) {
-//				System.out.println(s);
-//			}
+			for (String s: twister.twisterRound.getSolutionWordsList()) {
+				System.out.println(s);
+			}
 			
 		}
 		

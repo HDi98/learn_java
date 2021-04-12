@@ -1,6 +1,4 @@
-//name: haonan di
-//andrew id: hdi
-package hw2;
+package hw2_test;
 
 import java.io.File;
 import javafx.application.Application;
@@ -80,7 +78,8 @@ public class WordNerd extends Application{
 			root.getChildren().clear();
 			root.setTop(wordNerdView.menuBar);
 			root.setCenter(wordNerdView.openingGrid);
-			GameView.wordTimer.timeline.stop(); 
+			GameView.wordTimer.timeline.stop();
+			
 		});
 		
 		//bind handler for changing word source file

@@ -1,16 +1,14 @@
-//name: haonan di
-//andrew id: hdi
-package hw2;
+package hw2_shuwu;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class TestHangman {	
+public class TestHangman {
 	static Hangman  hangman;
-	String wordSourceName = "data\\wordsFile.txt";
-	
+	String wordSourceName = "data/wordsFile.txt";
+
 	@BeforeEach
 	public void setupTest() {
 		hangman = new Hangman();
@@ -19,22 +17,15 @@ public class TestHangman {
 		hangman.hangmanRound.setPuzzleWord("syllabus");
 		hangman.hangmanRound.setClueWord("_y__a_u_");
 	}
-	
+
 	@Test
 	public void testWordsListLength() {
 		assertEquals(20000, WordNerdModel.wordsFromFile.length);
 	}
-	//tmp
-	//@Test
-	/*public void testClueWord() {
-		assertEquals("_y__a_u_", hangman.hangmanRound.getClueWord());
-	}*/
-	
-	
-	
+
 	@Test
 	public void testCountDashes() {
-		assertEquals ("Test count dashes", 5, hangman.countDashes(hangman.hangmanRound.getClueWord()));		
+		assertEquals ("Test count dashes", 5, hangman.countDashes(hangman.hangmanRound.getClueWord()));
 	}
 	@Test
 	public void testNextTryCorrectClue() {
@@ -51,7 +42,7 @@ public class TestHangman {
 		hangman.nextTry("c");		//miss. Trial# 2
 		hangman.nextTry("d");		//miss. Trial# 3
 		assertEquals( 1, hangman.hangmanRound.getHitCount());
-	} 
+	}
 	@Test
 	public void testMissCount() {
 		hangman.nextTry("b");		//hit. Trial# 1

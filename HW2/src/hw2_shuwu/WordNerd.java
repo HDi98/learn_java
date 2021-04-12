@@ -1,6 +1,4 @@
-//name: haonan di
-//andrew id: hdi
-package hw2;
+package hw2_shuwu;
 
 import java.io.File;
 import javafx.application.Application;
@@ -19,7 +17,7 @@ import javafx.stage.FileChooser.ExtensionFilter;
 import javafx.stage.Stage;
 
 public class WordNerd extends Application{
-	
+
 	static final int MAIN_BUTTON_COUNT = 4;  //Hangman, Twister, Scoreboard, Search
 	static final int GAME_COUNT = 2; //Hangman, Twister
 	static final int HANGMAN_ID = 0;
@@ -31,16 +29,16 @@ public class WordNerd extends Application{
 	static final int GAME_SCENE_HEIGHT = 600;
 
 	static BorderPane root = new BorderPane();
-	
-	//exitButton is created here because it is used both in Hangman and Twister and 
+
+	//exitButton is created here because it is used both in Hangman and Twister and
 	//needs access to menuBar and openingGrid to come back to opening scene
-	//It is made static  because all other views need it 
+	//It is made static  because all other views need it
 	static Button exitButton = new Button("Exit");
-	
+
 	WordNerdView wordNerdView = new WordNerdView(); //will contain opening view
 
 	static WordNerdController[] wordNerdControllers = new WordNerdController[MAIN_BUTTON_COUNT];  //controllers for four mainButtons
-	
+
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		Scene scene;
@@ -50,44 +48,44 @@ public class WordNerd extends Application{
 		WordNerdModel.readWordsFile(WordNerdModel.WORDS_FILE_NAME);
 		setupActions();
 		primaryStage.setScene(scene);
-		primaryStage.show();		
+		primaryStage.show();
 	}
 
 	public static void main(String[] args) {
 		launch(args);
 	}
 
-	/** setupActions() binds mainButtons to their respective controllers, 
-	 * exitButton to its event handler actions, aboutMenuItem to its handler. 
-	 * It also binds wordSourceMenuItem to open the wordSource file 
+	/** setupActions() binds mainButtons to their respective controllers,
+	 * exitButton to its event handler actions, aboutMenuItem to its handler.
+	 * It also binds wordSourceMenuItem to open the wordSource file
 	 * and invokes WordNerdModel.readWordsFile() to load the words
 	 */
 	void setupActions() {
 		//create controllers
 		wordNerdControllers[WordNerd.HANGMAN_ID] = new HangmanController();
 		wordNerdControllers[WordNerd.TWISTER_ID] = new TwisterController();
-		wordNerdControllers[WordNerd.SCOREBOARD_ID] = new ScoreController(); 
+		wordNerdControllers[WordNerd.SCOREBOARD_ID] = new ScoreController();
 		wordNerdControllers[WordNerd.SEARCH_ID] = new SearchController();
 
 		//bind mainButtons to their controllers
-		for (int i = 0; i < MAIN_BUTTON_COUNT; i++) {  
+		for (int i = 0; i < MAIN_BUTTON_COUNT; i++) {
 			int index = i;
 			wordNerdView.mainButtons[i].setOnAction(event -> wordNerdControllers[index].startController());  //polymorphism in action
 		}
-		
+
 		//exit button should bring back from other views to wordNerdView
-		exitButton.setOnAction(e -> {  
+		exitButton.setOnAction(e -> {
 			root.getChildren().clear();
 			root.setTop(wordNerdView.menuBar);
 			root.setCenter(wordNerdView.openingGrid);
-			GameView.wordTimer.timeline.stop(); 
+			GameView.wordTimer.timeline.stop();
 		});
-		
+
 		//bind handler for changing word source file
 		wordNerdView.wordSourceMenuItem.setOnAction(event -> {
 			FileChooser fileChooser = new FileChooser();
 			fileChooser.setTitle("Select file");
-			fileChooser.setInitialDirectory(new File("data")); //local path 
+			fileChooser.setInitialDirectory(new File("data")); //local path
 			fileChooser.getExtensionFilters().addAll(
 					new ExtensionFilter("CSV Files", "*.txt"),
 					new ExtensionFilter("All Files", "*.*"));

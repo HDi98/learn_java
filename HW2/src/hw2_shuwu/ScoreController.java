@@ -1,8 +1,6 @@
-//name: haonan di
-//andrew id: hdi
-package hw2;
+package hw2_shuwu;
 
-public class SearchController extends WordNerdController {
+public class ScoreController extends WordNerdController{
 	
 	//this is a placeholder class. Will be completed in HW3
 
@@ -15,5 +13,7 @@ public class SearchController extends WordNerdController {
 	void setupBindings() {
 		//to be implemented in HW3
 	}
+	
+	
 
 }

@@ -1,0 +1,16 @@
+Algorithms	Robert Sedgewick	Kevin Wayne	
+Art of Computer Programming	Donald E. Knuth		
+From Mathematics to Generic Programming	Alexander A. Stepanov	Daniel E. Rose	
+Introduction to the Analysis of Algorithms	Robert Sedgewick	Philippe Flajolet	
+Introduction to the Design and Analysis of Algorithms	Anany Levitin		
+Algorithm Design	Jon Kleinberg	Eva Tardos	
+Computer Algorithms: Introduction to Design and Analysis	Sara Baase	Allen Van Gelder	
+Concrete Mathematics: A Foundation for Computer Science	Ronald L. Graham	Donald E. Knuth	Oren Patashnik
+Information Retrieval: Data Structures and Algorithms	William B. Frakes	Ricardo Baeza-Yates	
+Introduction to Parallel Algorithms	Joseph JaJa		
+Algorithms: A Creative Approach	Udi Manber		
+The Design and Analysis of Computer Algorithms	Alfred V. Aho	John E. Hopcroft	Jeffrey D. Ullman
+Algorithms in C++	Robert Sedgewick		
+Data Structures and Algorithm Analysis in Java	Mark A. Weiss		
+Elements of Programming	Alexander A. Stepanov	Paul McJones	
+Algorithmic Puzzles	Anany Levitin	Maria Levitin	

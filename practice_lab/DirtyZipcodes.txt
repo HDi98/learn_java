@@ -1,0 +1,2662 @@
+90001,Los Angeles,Los Angeles
+90002,Los Angeles,Los Angeles
+90003,Los Angeles,Los Angeles
+90004,Los Angeles,Los Angeles
+90005,Los Angeles,Los Angeles
+90006,Los Angeles,Los Angeles
+90007,Los Angeles,Los Angeles
+90008,Los Angeles,Los Angeles
+90009,Los Angeles,Los Angeles
+90010,Los Angeles,Los Angeles
+90011,Los Angeles,Los Angeles
+90012,Los Angeles,Los Angeles
+90013,Los Angeles,Los Angeles
+90014,Los Angeles,Los Angeles
+90015,Los Angeles,Los Angeles
+90016,Los Angeles,Los Angeles
+90017,Los Angeles,Los Angeles
+90018,Los Angeles,Los Angeles
+90019,Los Angeles,Los Angeles
+90020,Los Angeles,Los Angeles
+90021,Los Angeles,Los Angeles
+90022,Los Angeles,Los Angeles
+90023,Los Angeles,Los Angeles
+90024,Los Angeles,Los Angeles
+90025,Los Angeles,Los Angeles
+90026,Los Angeles,Los Angeles
+90027,Los Angeles,Los Angeles
+90028,Los Angeles,Los Angeles
+90029,Los Angeles,Los Angeles
+90029,Los Angeles,Los Angeles
+90030,Los Angeles,Los Angeles
+90031,Los Angeles,Los Angeles
+90032,Los Angeles,Los Angeles
+90033,Los Angeles,Los Angeles
+90034,Los Angeles,Los Angeles
+90035,Los Angeles,Los Angeles
+90036,Los Angeles,Los Angeles
+90037,Los Angeles,Los Angeles
+90038,Los Angeles,Los Angeles
+90039,Los Angeles,Los Angeles
+90040,Los Angeles,Los Angeles
+90041,Los Angeles,Los Angeles
+90042,Los Angeles,Los Angeles
+90043,Los Angeles,Los Angeles
+90044,Los Angeles,Los Angeles
+90045,Los Angeles,Los Angeles
+90046,Los Angeles,Los Angeles
+90047,Los Angeles,Los Angeles
+90048,Los Angeles,Los Angeles
+90049,Los Angeles,Los Angeles
+90050,Los Angeles,Los Angeles
+90051,Los Angeles,Los Angeles
+90052,Los Angeles,Los Angeles
+90053,Los Angeles,Los Angeles
+90054,Los Angeles,Los Angeles
+90055,Los Angeles,Los Angeles
+90056,Los Angeles,Los Angeles
+90057,Los Angeles,Los Angeles
+90058,Los Angeles,Los Angeles
+90059,Los Angeles,Los Angeles
+90060,Los Angeles,Los Angeles
+90061,Los Angeles,Los Angeles
+90062,Los Angeles,Los Angeles
+90063,Los Angeles,Los Angeles
+90064,Los Angeles,Los Angeles
+90065,Los Angeles,Los Angeles
+90066,Los Angeles,Los Angeles
+90067,Los Angeles,Los Angeles
+90068,Los Angeles,Los Angeles
+90069,West Hollywood,Los Angeles
+90070,Los Angeles,Los Angeles
+90071,Los Angeles,Los Angeles
+90072,Los Angeles,Los Angeles
+90073,Los Angeles,Los Angeles
+90074,Los Angeles,Los Angeles
+90075,Los Angeles,Los Angeles
+90076,Los Angeles,Los Angeles
+90077,Los Angeles,Los Angeles
+90078,Los Angeles,Los Angeles
+90079,Los Angeles,Los Angeles
+90080,Los Angeles,Los Angeles
+90081,Los Angeles,Los Angeles
+90082,Los Angeles,Los Angeles
+90083,Los Angeles,Los Angeles
+90084,Los Angeles,Los Angeles
+90086,Los Angeles,Los Angeles
+90087,Los Angeles,Los Angeles
+90088,Los Angeles,Los Angeles
+90089,Los Angeles,Los Angeles
+90091,Los Angeles,Los Angeles
+90093,Los Angeles,Los Angeles
+90094,Los Angeles,Los Angeles
+90095,Los Angeles,Los Angeles
+90096,Los Angeles,Los Angeles
+90099,Los Angeles,Los Angeles
+90101,Los Angeles,Los Angeles
+90102,Los Angeles,Los Angeles
+90103,Los Angeles,Los Angeles
+90189,Los Angeles,Los Angeles
+90201,Bell,Los Angeles
+90202,Bell Gardens,Los Angeles
+90209,Beverly Hills,Los Angeles
+90210,Beverly Hills,Los Angeles
+90211,Beverly Hills,Los Angeles
+90212,Beverly Hills,Los Angeles
+90213,Beverly Hills,Los Angeles
+90220,Compton,Los Angeles
+90221,Compton,Los Angeles
+90222,Compton,Los Angeles
+90223,Compton,Los Angeles
+90224,Compton,Los Angeles
+90230,Culver City,Los Angeles
+90231,Culver City,Los Angeles
+90232,Culver City,Los Angeles
+90233,Culver City,Los Angeles
+90239,Downey,Los Angeles
+90240,Downey,Los Angeles
+90241,Downey,Los Angeles
+90242,Downey,Los Angeles
+90245,El Segundo,Los Angeles
+90247,Gardena,Los Angeles
+90248,Gardena,Los Angeles
+90249,Gardena,Los Angeles
+90250,Hawthorne,Los Angeles
+90251,Hawthorne,Los Angeles
+90254,Hermosa Beach,Los Angeles
+90255,Huntington Park,Los Angeles
+90260,Lawndale,Los Angeles
+90261,Lawndale,Los Angeles
+90262,Lynwood,Los Angeles
+90263,Malibu,Los Angeles
+90264,Malibu,Los Angeles
+90265,Malibu,Los Angeles
+90266,Manhattan Beach,Los Angeles
+90267,Manhattan Beach,Los Angeles
+90270,Maywood,Los Angeles
+90272,Pacific Palisades,Los Angeles
+90274,Palos Verdes Peninsula,Los Angeles
+90275,Rancho Palos Verdes,Los Angeles
+90277,Redondo Beach,Los Angeles
+90278,Redondo Beach,Los Angeles
+90280,South Gate,Los Angeles
+90290,Topanga,Los Angeles
+90291,Venice,Los Angeles
+90292,Marina Del Rey,Los Angeles
+90293,Playa Del Rey,Los Angeles
+90294,Venice,Los Angeles
+90295,Marina Del Rey,Los Angeles
+90296,Playa Del Rey,Los Angeles
+90301,Inglewood,San Diego
+90301,Inglewood,Los Angeles
+90302,Inglewood,Los Angeles
+90303,Inglewood,Los Angeles
+90304,Inglewood,Los Angeles
+90305,Inglewood,Los Angeles
+90306,Inglewood,Los Angeles
+90307,Inglewood,Los Angeles
+90308,Inglewood,Los Angeles
+90309,Inglewood,Los Angeles
+90310,Inglewood,Los Angeles
+90311,Inglewood,Los Angeles
+90312,Inglewood,Los Angeles
+90313,Inglewood,Los Angeles
+90397,Inglewood,Los Angeles
+90398,Inglewood,Los Angeles
+90401,Santa Monica,San Diego
+90401,Santa Monica,Los Angeles
+90402,Santa Monica,Los Angeles
+90403,Santa Monica,Los Angeles
+90404,Santa Monica,Los Angeles
+90405,Santa Monica,Los Angeles
+90406,Santa Monica,Los Angeles
+90407,Santa Monica,Los Angeles
+90408,Santa Monica,Los Angeles
+90409,Santa Monica,Los Angeles
+90410,Santa Monica,Los Angeles
+90411,Santa Monica,Los Angeles
+90501,Torrance,Los Angeles
+90502,Torrance,Los Angeles
+90503,Torrance,Los Angeles
+90504,Torrance,Los Angeles
+90505,Torrance,Los Angeles
+90506,Torrance,Los Angeles
+90507,Torrance,Los Angeles
+90508,Torrance,Los Angeles
+90509,Torrance,Los Angeles
+90510,Torrance,Los Angeles
+90601,Whittier,Los Angeles
+90602,Whittier,Los Angeles
+90603,Whittier,Los Angeles
+90604,Whittier,Los Angeles
+90605,Whittier,Los Angeles
+90606,Whittier,Los Angeles
+90607,Whittier,Los Angeles
+90608,Whittier,Los Angeles
+90609,Whittier,Los Angeles
+90610,Whittier,Los Angeles
+90612,Whittier,Los Angeles
+90620,Buena Park,Orange
+90621,Buena Park,Orange
+90622,Buena Park,Orange
+90623,La Palma,Orange
+90624,Buena Park,Orange
+90630,Cypress,Orange
+90630,Cypress,Orange
+90630,Cypress,Orange
+90631,La Habra,Orange
+90632,La Habra,Orange
+90633,La Habra,Orange
+90637,La Mirada,Los Angeles
+90638,La Mirada,Los Angeles
+90639,La Mirada,Los Angeles
+90640,Montebello,Los Angeles
+90650,Norwalk,Los Angeles
+90651,Norwalk,Los Angeles
+90652,Norwalk,Los Angeles
+90659,Norwalk,Los Angeles
+90660,Pico Rivera,Los Angeles
+90661,Pico Rivera,Los Angeles
+90662,Pico Rivera,Los Angeles
+90670,Santa Fe Springs,Los Angeles
+90671,Santa Fe Springs,Los Angeles
+90680,Stanton,Orange
+90701,Artesia,Los Angeles
+90702,Artesia,Los Angeles
+90703,Cerritos,Los Angeles
+90704,Avalon,Los Angeles
+90706,Bellflower,Los Angeles
+90707,Bellflower,Los Angeles
+90710,Harbor City,Los Angeles
+90711,Lakewood,Los Angeles
+90712,Lakewood,Los Angeles
+90713,Lakewood,Los Angeles
+90714,Lakewood,Los Angeles
+90715,Lakewood,Los Angeles
+90716,Hawaiian Gardens,Los Angeles
+90717,Lomita,Los Angeles
+90720,Los Alamitos,Orange
+90721,Los Alamitos,Orange
+90723,Paramount,Los Angeles
+90731,San Pedro,Los Angeles
+90732,San Pedro,Los Angeles
+90733,San Pedro,Los Angeles
+90734,San Pedro,Los Angeles
+90740,Seal Beach,Orange
+90742,Sunset Beach,Orange
+90743,Surfside,Orange
+90744,Wilmington,Los Angeles
+90745,Carson,Los Angeles
+90746,Carson,Los Angeles
+90747,Carson,Los Angeles
+90748,Wilmington,Los Angeles
+90749,Carson,Los Angeles
+90755,Signal Hill,Los Angeles
+90801,Long Beach,Los Angeles
+90802,Long Beach,Los Angeles
+90803,Long Beach,Los Angeles
+90804,Long Beach,Los Angeles
+90805,Long Beach,Los Angeles
+90806,Long Beach,Los Angeles
+90807,Long Beach,Los Angeles
+90808,Long Beach,Los Angeles
+90809,Long Beach,Los Angeles
+90810,Long Beach,Los Angeles
+90813,Long Beach,Los Angeles
+90814,Long Beach,Los Angeles
+90815,Long Beach,Los Angeles
+90822,Long Beach,Los Angeles
+90831,Long Beach,Los Angeles
+90832,Long Beach,Los Angeles
+90833,Long Beach,Los Angeles
+90834,Long Beach,Los Angeles
+90835,Long Beach,Los Angeles
+90840,Long Beach,Los Angeles
+90842,Long Beach,Los Angeles
+90844,Long Beach,Los Angeles
+90845,Long Beach,Los Angeles
+90846,Long Beach,Los Angeles
+90847,Long Beach,Los Angeles
+90848,Long Beach,Los Angeles
+90853,Long Beach,Los Angeles
+90888,Long Beach,Los Angeles
+90895,Carson,Los Angeles
+90899,Long Beach,Los Angeles
+91001,Altadena,Los Angeles
+91003,Altadena,Los Angeles
+91006,Arcadia,Los Angeles
+91007,Arcadia,Los Angeles
+91009,Duarte,Los Angeles
+91010,Duarte,Los Angeles
+91011,La Canada Flintridge,Los Angeles
+91012,La Canada Flintridge,Los Angeles
+91016,Monrovia,Los Angeles
+91017,Monrovia,Los Angeles
+91020,Montrose,Los Angeles
+91021,Montrose,Los Angeles
+91023,Mount Wilson,Los Angeles
+91024,Sierra Madre,Los Angeles
+91025,Sierra Madre,Los Angeles
+91030,South Pasadena,Los Angeles
+91031,South Pasadena,Los Angeles
+91040,Sunland,Los Angeles
+91041,Sunland,Los Angeles
+91042,Tujunga,Los Angeles
+91043,Tujunga,Los Angeles
+91046,Verdugo City,Los Angeles
+91066,Arcadia,Los Angeles
+91077,Arcadia,Los Angeles
+91101,Pasadena,Los Angeles
+91102,Pasadena,Los Angeles
+91103,Pasadena,Los Angeles
+91104,Pasadena,Los Angeles
+91105,Pasadena,Los Angeles
+91106,Pasadena,Los Angeles
+91107,Pasadena,Los Angeles
+91108,San Marino,Los Angeles
+91109,Pasadena,Los Angeles
+91110,Pasadena,Los Angeles
+91114,Pasadena,Los Angeles
+91115,Pasadena,Los Angeles
+91116,Pasadena,Los Angeles
+91117,Pasadena,Los Angeles
+91118,San Marino,Los Angeles
+91121,Pasadena,Los Angeles
+91123,Pasadena,Los Angeles
+91124,Pasadena,Los Angeles
+91125,Pasadena,Los Angeles
+91126,Pasadena,Los Angeles
+91129,Pasadena,Los Angeles
+91131,Pasadena,Los Angeles
+91182,Pasadena,Los Angeles
+91184,Pasadena,Los Angeles
+91185,Pasadena,Los Angeles
+91188,Pasadena,Los Angeles
+91189,Pasadena,Los Angeles
+91191,Pasadena,Los Angeles
+91199,Pasadena,Los Angeles
+91201,Glendale,Los Angeles
+91202,Glendale,Los Angeles
+91203,Glendale,Los Angeles
+91204,Glendale,Los Angeles
+91205,Glendale,Los Angeles
+91206,Glendale,Los Angeles
+91207,Glendale,Los Angeles
+91208,Glendale,Los Angeles
+91209,Glendale,Los Angeles
+91210,Glendale,Los Angeles
+91214,La Crescenta,Los Angeles
+91221,Glendale,Los Angeles
+91222,Glendale,Los Angeles
+91224,La Crescenta,Los Angeles
+91225,Glendale,Los Angeles
+91226,Glendale,Los Angeles
+91301,Agoura Hills,Los Angeles
+91302,Calabasas,Los Angeles
+91303,Canoga Park,Los Angeles
+91304,Canoga Park,Los Angeles
+91305,Canoga Park,Los Angeles
+91306,Winnetka,Los Angeles
+91307,West Hills,Los Angeles
+91308,West Hills,Los Angeles
+91309,Canoga Park,Los Angeles
+91310,Castaic,Los Angeles
+91311,Chatsworth,Los Angeles
+91313,Chatsworth,Los Angeles
+91316,Encino,Los Angeles
+91319,Newbury Park,Ventura
+91320,Newbury Park,Ventura
+91321,Newhall,Los Angeles
+91322,Newhall,Los Angeles
+91324,Northridge,Los Angeles
+91325,Northridge,Los Angeles
+91326,Porter Ranch,Los Angeles
+91327,Northridge,Los Angeles
+91328,Northridge,Los Angeles
+91329,Northridge,Los Angeles
+91330,Northridge,Los Angeles
+91331,Pacoima,Los Angeles
+91333,Pacoima,Los Angeles
+91334,Pacoima,Los Angeles
+91335,Reseda,Los Angeles
+91337,Reseda,Los Angeles
+91340,San Fernando,Los Angeles
+91341,San Fernando,Los Angeles
+91342,Sylmar,Los Angeles
+91343,North Hills,Los Angeles
+91344,Granada Hills,Los Angeles
+91345,Mission Hills,Los Angeles
+91346,Mission Hills,Los Angeles
+91350,Santa Clarita,Los Angeles
+91351,Canyon Country,Los Angeles
+91352,Sun Valley,Los Angeles
+91353,Sun Valley,Los Angeles
+91354,Valencia,Los Angeles
+91355,Valencia,Los Angeles
+91356,Tarzana,Los Angeles
+91357,Tarzana,Los Angeles
+91358,Thousand Oaks,Ventura
+91359,Westlake Village,Ventura
+91360,Thousand Oaks,Ventura
+91361,Westlake Village,Ventura
+91362,Thousand Oaks,Ventura
+91363,Westlake Village,Los Angeles
+91364,Woodland Hills,Los Angeles
+91365,Woodland Hills,Los Angeles
+91367,Woodland Hills,Los Angeles
+91371,Woodland Hills,Los Angeles
+91372,Calabasas,Los Angeles
+91376,Agoura Hills,Los Angeles
+91377,Oak Park,Ventura
+91380,Santa Clarita,Los Angeles
+91381,Stevenson Ranch,Los Angeles
+91382,Santa Clarita,Los Angeles
+91383,Santa Clarita,Los Angeles
+91384,Castaic,Los Angeles
+91385,Valencia,Los Angeles
+91386,Canyon Country,Los Angeles
+91387,Canyon Country,Los Angeles
+91388,Van Nuys,Los Angeles
+91390,Santa Clarita,Los Angeles
+91392,Sylmar,Los Angeles
+91393,North Hills,Los Angeles
+91394,Granada Hills,Los Angeles
+91395,Mission Hills,Los Angeles
+91396,Winnetka,Los Angeles
+91399,Woodland Hills,Los Angeles
+91401,Van Nuys,Los Angeles
+91402,Panorama City,Los Angeles
+91403,Sherman Oaks,Los Angeles
+91404,Van Nuys,Los Angeles
+91405,Van Nuys,Los Angeles
+91406,Van Nuys,Los Angeles
+91407,Van Nuys,Los Angeles
+91408,Van Nuys,Los Angeles
+91409,Van Nuys,Los Angeles
+91410,Van Nuys,Los Angeles
+91411,Van Nuys,Los Angeles
+91412,Panorama City,Los Angeles
+91413,Sherman Oaks,Los Angeles
+91416,Encino,Los Angeles
+91423,Sherman Oaks,Los Angeles
+91426,Encino,Los Angeles
+91436,Encino,Los Angeles
+91470,Van Nuys,Los Angeles
+91482,Van Nuys,Los Angeles
+91495,Sherman Oaks,Los Angeles
+91496,Van Nuys,Los Angeles
+91497,Van Nuys,Los Angeles
+91499,Van Nuys,Los Angeles
+91501,Burbank,Los Angeles
+91502,Burbank,Los Angeles
+91503,Burbank,Los Angeles
+91504,Burbank,Los Angeles
+91505,Burbank,Los Angeles
+91506,Burbank,Los Angeles
+91507,Burbank,Los Angeles
+91508,Burbank,Los Angeles
+91510,Burbank,Los Angeles
+91521,Burbank,Los Angeles
+91522,Burbank,Los Angeles
+91523,Burbank,Los Angeles
+91526,Burbank,Los Angeles
+91601,North Hollywood,Los Angeles
+91602,North Hollywood,Los Angeles
+91603,North Hollywood,Los Angeles
+91604,Studio City,Los Angeles
+91605,North Hollywood,Los Angeles
+91606,North Hollywood,Los Angeles
+91607,Valley Village,Los Angeles
+91608,Universal City,Los Angeles
+91609,North Hollywood,Los Angeles
+91610,Toluca Lake,Los Angeles
+91611,North Hollywood,Los Angeles
+91612,North Hollywood,Los Angeles
+91614,Studio City,Los Angeles
+91615,North Hollywood,Los Angeles
+91616,North Hollywood,Los Angeles
+91617,Valley Village,Los Angeles
+91618,North Hollywood,Los Angeles
+91701,Rancho Cucamonga,San Bernardino
+91702,Azusa,Los Angeles
+91706,Baldwin Park,Los Angeles
+91708,Chino,San Bernardino
+91709,Chino Hills,San Bernardino
+91710,Chino,San Bernardino
+91711,Claremont,Los Angeles
+91714,City Of Industry,Los Angeles
+91715,City Of Industry,Los Angeles
+91716,City Of Industry,Los Angeles
+91722,Covina,Los Angeles
+91723,Covina,Los Angeles
+91724,Covina,Los Angeles
+91729,Rancho Cucamonga,San Bernardino
+91730,Rancho Cucamonga,San Bernardino
+91731,El Monte,Los Angeles
+91732,El Monte,Los Angeles
+91733,South El Monte,Los Angeles
+91734,El Monte,Los Angeles
+91735,El Monte,Los Angeles
+91737,Rancho Cucamonga,San Bernardino
+91739,Rancho Cucamonga,San Bernardino
+91740,Glendora,Los Angeles
+91741,Glendora,Los Angeles
+91743,Guasti,San Bernardino
+91744,La Puente,Los Angeles
+91745,Hacienda Heights,Los Angeles
+91746,La Puente,Los Angeles
+91747,La Puente,Los Angeles
+91748,Rowland Heights,Los Angeles
+91749,La Puente,Los Angeles
+91750,La Verne,Los Angeles
+91752,Mira Loma,Riverside
+91754,Monterey Park,Los Angeles
+91755,Monterey Park,Los Angeles
+91756,Monterey Park,Los Angeles
+91758,Ontario,San Bernardino
+91759,Mt Baldy,Los Angeles
+91761,Ontario,San Bernardino
+91762,Ontario,San Bernardino
+91763,Montclair,San Bernardino
+91764,Ontario,San Bernardino
+91765,Diamond Bar,Los Angeles
+91766,Pomona,Los Angeles
+91767,Pomona,Los Angeles
+91768,Pomona,Los Angeles
+91769,Pomona,Los Angeles
+91770,Rosemead,Los Angeles
+91771,Rosemead,Los Angeles
+91772,Rosemead,Los Angeles
+91773,San Dimas,Los Angeles
+91775,San Gabriel,Los Angeles
+91776,San Gabriel,Los Angeles
+91778,San Gabriel,Los Angeles
+91780,Temple City,Los Angeles
+91784,Upland,San Bernardino
+91785,Upland,San Bernardino
+91786,Upland,San Bernardino
+91788,Walnut,Los Angeles
+91789,Walnut,Los Angeles
+91790,West Covina,Los Angeles
+91791,West Covina,Los Angeles
+91792,West Covina,Los Angeles
+91793,West Covina,Los Angeles
+91795,Walnut,Los Angeles
+91797,Pomona,Los Angeles
+91798,Ontario,San Bernardino
+91799,Pomona,Los Angeles
+91801,Alhambra,Los Angeles
+91802,Alhambra,Los Angeles
+91803,Alhambra,Los Angeles
+91804,Alhambra,Los Angeles
+91841,Alhambra,Los Angeles
+91896,Alhambra,Los Angeles
+91899,Alhambra,Los Angeles
+91901,Alpine,San Diego
+91902,Bonita,San Diego
+91903,Alpine,San Diego
+91905,Boulevard,San Diego
+91906,Campo,San Diego
+91908,Bonita,San Diego
+91909,Chula Vista,San Diego
+91910,Chula Vista,San Diego
+91911,Chula Vista,San Diego
+91912,Chula Vista,San Diego
+91913,Chula Vista,San Diego
+91914,Chula Vista,San Diego
+91915,Chula Vista,San Diego
+91916,Descanso,San Diego
+91917,Dulzura,San Diego
+91921,Chula Vista,San Diego
+91931,Guatay,San Diego
+91932,Imperial Beach,San Diego
+91933,Imperial Beach,San Diego
+91934,Jacumba,San Diego
+91935,Jamul,San Diego
+91941,La Mesa,San Diego
+91942,La Mesa,San Diego
+91943,La Mesa,San Diego
+91944,La Mesa,San Diego
+91945,Lemon Grove,San Diego
+91946,Lemon Grove,San Diego
+91947,Lincoln Acres,San Diego
+91948,Mount Laguna,San Diego
+91950,National City,San Diego
+91951,National City,San Diego
+91962,Pine Valley,San Diego
+91963,Potrero,San Diego
+91976,Spring Valley,San Diego
+91977,Spring Valley,San Diego
+91978,Spring Valley,San Diego
+91979,Spring Valley,San Diego
+91980,Tecate,San Diego
+91987,Tecate,San Diego
+91990,Potrero,San Diego
+92003,Bonsall,San Diego
+92004,Borrego Springs,San Diego
+92007,Cardiff By The Sea,San Diego
+92008,Carlsbad,San Diego
+92009,Carlsbad,San Diego
+92010,Carlsbad,San Diego
+92011,Carlsbad,San Diego
+92013,Carlsbad,San Diego
+92014,Del Mar,San Diego
+92018,Carlsbad,San Diego
+92019,El Cajon,San Diego
+92020,El Cajon,San Diego
+92021,El Cajon,San Diego
+92022,El Cajon,San Diego
+92023,Encinitas,San Diego
+92024,Encinitas,San Diego
+92025,Escondido,San Diego
+92026,Escondido,San Diego
+92027,Escondido,San Diego
+92028,Fallbrook,San Diego
+92029,Escondido,San Diego
+92030,Escondido,San Diego
+92033,Escondido,San Diego
+92036,Julian,San Diego
+92037,La Jolla,San Diego
+92038,La Jolla,San Diego
+92039,La Jolla,San Diego
+92040,Lakeside,San Diego
+92046,Escondido,San Diego
+92049,Oceanside,San Diego
+92051,Oceanside,San Diego
+92052,Oceanside,San Diego
+92054,Oceanside,San Diego
+92055,Camp Pendleton,San Diego
+92056,Oceanside,San Diego
+92057,Oceanside,San Diego
+92059,Pala,San Diego
+92060,Palomar Mountain,San Diego
+92061,Pauma Valley,San Diego
+92064,Poway,San Diego
+92065,Ramona,San Diego
+92066,Ranchita,San Diego
+92067,Rancho Santa Fe,San Diego
+92068,San Luis Rey,San Diego
+92069,San Marcos,San Diego
+92070,Santa Ysabel,San Diego
+92071,Santee,San Diego
+92072,Santee,San Diego
+92074,Poway,San Diego
+92075,Solana Beach,San Diego
+92078,San Marcos,San Diego
+92079,San Marcos,San Diego
+92081,Vista,San Diego
+92082,Valley Center,San Diego
+92083,Vista,San Diego
+92084,Vista,San Diego
+92085,Vista,San Diego
+92086,Warner Springs,San Diego
+92088,Fallbrook,San Diego
+92090,El Cajon,San Diego
+92091,Rancho Santa Fe,San Diego
+92092,La Jolla,San Diego
+92093,La Jolla,San Diego
+92096,San Marcos,San Diego
+92101,San Diego,San Diego
+92102,San Diego,San Diego
+92103,San Diego,San Diego
+92104,San Diego,San Diego
+92105,San Diego,San Diego
+92106,San Diego,San Diego
+92107,San Diego,San Diego
+92108,San Diego,San Diego
+92109,San Diego,San Diego
+92110,San Diego,San Diego
+92111,San Diego,San Diego
+92112,San Diego,San Diego
+92113,San Diego,San Diego
+92114,San Diego,San Diego
+92115,San Diego,San Diego
+92116,San Diego,San Diego
+92117,San Diego,San Diego
+92118,Coronado,San Diego
+92119,San Diego,San Diego
+92120,San Diego,San Diego
+92121,San Diego,San Diego
+92122,San Diego,San Diego
+92123,San Diego,San Diego
+92124,San Diego,San Diego
+92126,San Diego,San Diego
+92127,San Diego,San Diego
+92128,San Diego,San Diego
+92129,San Diego,San Diego
+92130,San Diego,San Diego
+92131,San Diego,San Diego
+92132,San Diego,San Diego
+92133,San Diego,San Diego
+92134,San Diego,San Diego
+92135,San Diego,San Diego
+92136,San Diego,San Diego
+92137,San Diego,San Diego
+92138,San Diego,San Diego
+92139,San Diego,San Diego
+92140,San Diego,San Diego
+92142,San Diego,San Diego
+92143,San Ysidro,San Diego
+92145,San Diego,San Diego
+92147,San Diego,San Diego
+92149,San Diego,San Diego
+92150,San Diego,San Diego
+92152,San Diego,San Diego
+92153,San Diego,San Diego
+92154,San Diego,San Diego
+92155,San Diego,San Diego
+92158,San Diego,San Diego
+92159,San Diego,San Diego
+92160,San Diego,San Diego
+92161,San Diego,San Diego
+92162,San Diego,San Diego
+92163,San Diego,San Diego
+92164,San Diego,San Diego
+92165,San Diego,San Diego
+92166,San Diego,San Diego
+92167,San Diego,San Diego
+92168,San Diego,San Diego
+92169,San Diego,San Diego
+92170,San Diego,San Diego
+92171,San Diego,San Diego
+92172,San Diego,San Diego
+92173,San Ysidro,San Diego
+92174,San Diego,San Diego
+92175,San Diego,San Diego
+92176,San Diego,San Diego
+92177,San Diego,San Diego
+92178,Coronado,San Diego
+92179,San Diego,San Diego
+92182,San Diego,San Diego
+92184,San Diego,San Diego
+92186,San Diego,San Diego
+92187,San Diego,San Diego
+92190,San Diego,San Diego
+92191,San Diego,San Diego
+92192,San Diego,San Diego
+92193,San Diego,San Diego
+92194,San Diego,San Diego
+92195,San Diego,San Diego
+92196,San Diego,San Diego
+92197,San Diego,San Diego
+92198,San Diego,San Diego
+92199,San Diego,San Diego
+92201,Indio,Riverside
+92202,Indio,Riverside
+92203,Indio,Riverside
+92210,Indian Wells,Riverside
+92211,Palm Desert,Riverside
+92220,Banning,Riverside
+92222,Bard,Imperial
+92223,Beaumont,Riverside
+92225,Blythe,Riverside
+92226,Blythe,Riverside
+92227,Brawley,Imperial
+92230,Cabazon,Riverside
+92231,Calexico,Imperial
+92232,Calexico,Imperial
+92233,Calipatria,Imperial
+92234,Cathedral City,Riverside
+92235,Cathedral City,Riverside
+92236,Coachella,Riverside
+92239,Desert Center,Riverside
+92240,Desert Hot Springs,Riverside
+92241,Desert Hot Springs,Riverside
+92242,Earp,San Bernardino
+92243,El Centro,Imperial
+92244,El Centro,Imperial
+92247,La Quinta,Riverside
+92248,La Quinta,Riverside
+92249,Heber,Imperial
+92250,Holtville,Imperial
+92251,Imperial,Imperial
+92252,Joshua Tree,San Bernardino
+92253,La Quinta,Riverside
+92254,Mecca,Riverside
+92255,Palm Desert,Riverside
+92256,Morongo Valley,San Bernardino
+92257,Niland,Imperial
+92258,North Palm Springs,Riverside
+92259,Ocotillo,Imperial
+92260,Palm Desert,Riverside
+92261,Palm Desert,Riverside
+92262,Palm Springs,Riverside
+92263,Palm Springs,Riverside
+92264,Palm Springs,Riverside
+92266,Palo Verde,Imperial
+92267,Parker Dam,San Bernardino
+92268,Pioneertown,San Bernardino
+92270,Rancho Mirage,Riverside
+92273,Seeley,Imperial
+92274,Thermal,Riverside
+92275,Salton City,Imperial
+92276,Thousand Palms,Riverside
+92277,Twentynine Palms,San Bernardino
+92278,Twentynine Palms,San Bernardino
+92280,Vidal,San Bernardino
+92281,Westmorland,Imperial
+92282,White Water,Riverside
+92283,Winterhaven,Imperial
+92284,Yucca Valley,San Bernardino
+92285,Landers,San Bernardino
+92286,Yucca Valley,San Bernardino
+92292,Palm Springs,Riverside
+92301,Adelanto,San Bernardino
+92304,Amboy,San Bernardino
+92305,Angelus Oaks,San Bernardino
+92307,Apple Valley,San Bernardino
+92308,Apple Valley,San Bernardino
+92309,Baker,San Bernardino
+92310,Fort Irwin,San Bernardino
+92311,Barstow,San Bernardino
+92312,Barstow,San Bernardino
+92313,Grand Terrace,San Bernardino
+92314,Big Bear City,San Bernardino
+92315,Big Bear Lake,San Bernardino
+92316,Bloomington,San Bernardino
+92317,Blue Jay,San Bernardino
+92318,Bryn Mawr,San Bernardino
+92320,Calimesa,Riverside
+92321,Cedar Glen,San Bernardino
+92322,Cedarpines Park,San Bernardino
+92323,Cima,San Bernardino
+92324,Colton,San Bernardino
+92325,Crestline,San Bernardino
+92326,Crest Park,San Bernardino
+92327,Daggett,San Bernardino
+92328,Death Valley,Inyo
+92329,Phelan,San Bernardino
+92331,Fontana,San Bernardino
+92332,Essex,San Bernardino
+92333,Fawnskin,San Bernardino
+92334,Fontana,San Bernardino
+92335,Fontana,San Bernardino
+92336,Fontana,San Bernardino
+92337,Fontana,San Bernardino
+92338,Ludlow,San Bernardino
+92339,Forest Falls,San Bernardino
+92340,Hesperia,San Bernardino
+92341,Green Valley Lake,San Bernardino
+92342,Helendale,San Bernardino
+92344,Hesperia,San Bernardino
+92345,Hesperia,San Bernardino
+92346,Highland,San Bernardino
+92347,Hinkley,San Bernardino
+92350,Loma Linda,San Bernardino
+92352,Lake Arrowhead,San Bernardino
+92354,Loma Linda,San Bernardino
+92356,Lucerne Valley,San Bernardino
+92357,Loma Linda,San Bernardino
+92358,Lytle Creek,San Bernardino
+92359,Mentone,San Bernardino
+92363,Needles,San Bernardino
+92364,Nipton,San Bernardino
+92365,Newberry Springs,San Bernardino
+92366,Mountain Pass,San Bernardino
+92368,Oro Grande,San Bernardino
+92369,Patton,San Bernardino
+92371,Phelan,San Bernardino
+92372,Pinon Hills,San Bernardino
+92373,Redlands,San Bernardino
+92374,Redlands,San Bernardino
+92375,Redlands,San Bernardino
+92376,Rialto,San Bernardino
+92377,Rialto,San Bernardino
+92378,Rimforest,San Bernardino
+92382,Running Springs,San Bernardino
+92384,Shoshone,Inyo
+92385,Skyforest,San Bernardino
+92386,Sugarloaf,San Bernardino
+92389,Tecopa,Inyo
+92391,Twin Peaks,San Bernardino
+92392,Victorville,San Bernardino
+92393,Victorville,San Bernardino
+92394,Victorville,San Bernardino
+92395,Victorville,San Bernardino
+92397,Wrightwood,San Bernardino
+92398,Yermo,San Bernardino
+92399,Yucaipa,San Bernardino
+92401,San Bernardino,San Bernardino
+92402,San Bernardino,San Bernardino
+92403,San Bernardino,San Bernardino
+92404,San Bernardino,San Bernardino
+92405,San Bernardino,San Bernardino
+92406,San Bernardino,San Bernardino
+92407,San Bernardino,San Bernardino
+92408,San Bernardino,San Bernardino
+92410,San Bernardino,San Bernardino
+92411,San Bernardino,San Bernardino
+92412,San Bernardino,San Bernardino
+92413,San Bernardino,San Bernardino
+92414,San Bernardino,San Bernardino
+92415,San Bernardino,San Bernardino
+92418,San Bernardino,San Bernardino
+92423,San Bernardino,San Bernardino
+92424,San Bernardino,San Bernardino
+92427,San Bernardino,San Bernardino
+92501,Riverside,Riverside
+92502,Riverside,Riverside
+92503,Riverside,Riverside
+92504,Riverside,Riverside
+92505,Riverside,Riverside
+92506,Riverside,Riverside
+92507,Riverside,Riverside
+92508,Riverside,Riverside
+92509,Riverside,Riverside
+92513,Riverside,Riverside
+92514,Riverside,Riverside
+92515,Riverside,Riverside
+92516,Riverside,Riverside
+92517,Riverside,Riverside
+92518,March Air Reserve Base,Riverside
+92519,Riverside,Riverside
+92521,Riverside,Riverside
+92522,Riverside,Riverside
+92530,Lake Elsinore,Riverside
+92531,Lake Elsinore,Riverside
+92532,Lake Elsinore,Riverside
+92536,Aguanga,Riverside
+92539,Anza,Riverside
+92543,Hemet,Riverside
+92544,Hemet,Riverside
+92545,Hemet,Riverside
+92546,Hemet,Riverside
+92548,Homeland,Riverside
+92549,Idyllwild,Riverside
+92551,Moreno Valley,Riverside
+92552,Moreno Valley,Riverside
+92553,Moreno Valley,Riverside
+92554,Moreno Valley,Riverside
+92555,Moreno Valley,Riverside
+92556,Moreno Valley,Riverside
+92557,Moreno Valley,Riverside
+92561,Mountain Center,Riverside
+92562,Murrieta,Riverside
+92563,Murrieta,Riverside
+92564,Murrieta,Riverside
+92567,Nuevo,Riverside
+92570,Perris,Riverside
+92571,Perris,Riverside
+92572,Perris,Riverside
+92581,San Jacinto,Riverside
+92582,San Jacinto,Riverside
+92583,San Jacinto,Riverside
+92584,Menifee,Riverside
+92585,Sun City,Riverside
+92586,Sun City,Riverside
+92587,Sun City,Riverside
+92589,Temecula,Riverside
+92590,Temecula,Riverside
+92591,Temecula,Riverside
+92592,Temecula,Riverside
+92593,Temecula,Riverside
+92595,Wildomar,Riverside
+92596,Winchester,Riverside
+92599,Perris,Riverside
+92602,Irvine,Orange
+92603,Irvine,Orange
+92604,Irvine,Orange
+92605,Huntington Beach,Orange
+92606,Irvine,Orange
+92607,Laguna Niguel,Orange
+92609,El Toro,Orange
+92610,Foothill Ranch,Orange
+92612,Irvine,Orange
+92614,Irvine,Orange
+92615,Huntington Beach,Orange
+92616,Irvine,Orange
+92617,Irvine,Orange
+92618,Irvine,Orange
+92619,Irvine,Orange
+92620,Irvine,Orange
+92623,Irvine,Orange
+92624,Capistrano Beach,Orange
+92625,Corona Del Mar,Orange
+92626,Costa Mesa,Orange
+92627,Costa Mesa,Orange
+92628,Costa Mesa,Orange
+92629,Dana Point,Orange
+92630,Lake Forest,Orange
+92637,Laguna Woods,Orange
+92646,Huntington Beach,Orange
+92647,Huntington Beach,Orange
+92648,Huntington Beach,Orange
+92649,Huntington Beach,Orange
+92650,East Irvine,Orange
+92651,Laguna Beach,Orange
+92652,Laguna Beach,Orange
+92653,Laguna Hills,Orange
+92654,Laguna Hills,Orange
+92655,Midway City,Orange
+92656,Aliso Viejo,Orange
+92657,Newport Coast,Orange
+92658,Newport Beach,Orange
+92659,Newport Beach,Orange
+92660,Newport Beach,Orange
+92661,Newport Beach,Orange
+92662,Newport Beach,Orange
+92663,Newport Beach,Orange
+92672,San Clemente,Orange
+92673,San Clemente,Orange
+92674,San Clemente,Orange
+92675,San Juan Capistrano,Orange
+92676,Silverado,Orange
+92677,Laguna Niguel,Orange
+92678,Trabuco Canyon,Orange
+92679,Trabuco Canyon,Orange
+92683,Westminster,Orange
+92684,Westminster,Orange
+92685,Westminster,Orange
+92688,Rancho Santa Margarita,Orange
+92690,Mission Viejo,Orange
+92691,Mission Viejo,Orange
+92692,Mission Viejo,Orange
+92693,San Juan Capistrano,Orange
+92694,Ladera Ranch,Orange
+92697,Irvine,Orange
+92698,Aliso Viejo,Orange
+92701,Santa Ana,Orange
+92702,Santa Ana,Orange
+92703,Santa Ana,Orange
+92704,Santa Ana,Orange
+92705,Santa Ana,Orange
+92706,Santa Ana,Orange
+92707,Santa Ana,Orange
+92708,Fountain Valley,Orange
+92709,Irvine,Orange
+92710,Irvine,Orange
+92711,Santa Ana,Orange
+92712,Santa Ana,Orange
+92725,Santa Ana,Orange
+92728,Fountain Valley,Orange
+92735,Santa Ana,Orange
+92780,Tustin,Orange
+92781,Tustin,Orange
+92782,Tustin,Orange
+92799,Santa Ana,Orange
+92801,Anaheim,Orange
+92802,Anaheim,Orange
+92803,Anaheim,Orange
+92804,Anaheim,Orange
+92805,Anaheim,Orange
+92806,Anaheim,Orange
+92807,Anaheim,Orange
+92808,Anaheim,Orange
+92809,Anaheim,Orange
+92811,Atwood,Orange
+92812,Anaheim,Orange
+92814,Anaheim,Orange
+92815,Anaheim,Orange
+92816,Anaheim,Orange
+92817,Anaheim,Orange
+92821,Brea,Orange
+92822,Brea,Orange
+92823,Brea,Orange
+92825,Anaheim,Orange
+92831,Fullerton,Orange
+92832,Fullerton,Orange
+92833,Fullerton,Orange
+92834,Fullerton,Orange
+92835,Fullerton,Orange
+92836,Fullerton,Orange
+92837,Fullerton,Orange
+92838,Fullerton,Orange
+92840,Garden Grove,Orange
+92841,Garden Grove,Orange
+92842,Garden Grove,Orange
+92843,Garden Grove,Orange
+92844,Garden Grove,Orange
+92845,Garden Grove,Orange
+92846,Garden Grove,Orange
+92850,Anaheim,Orange
+92856,Orange,Orange
+92857,Orange,Orange
+92859,Orange,Orange
+92860,Norco,Riverside
+92861,Villa Park,Orange
+92862,Orange,Orange
+92863,Orange,Orange
+92864,Orange,Orange
+92865,Orange,Orange
+92866,Orange,Orange
+92867,Orange,Orange
+92868,Orange,Orange
+92869,Orange,Orange
+92870,Placentia,Orange
+92871,Placentia,Orange
+92877,Corona,Riverside
+92878,Corona,Riverside
+92879,Corona,Riverside
+92880,Corona,Riverside
+92881,Corona,Riverside
+92882,Corona,Riverside
+92883,Corona,Riverside
+92885,Yorba Linda,Orange
+92886,Yorba Linda,Orange
+92887,Yorba Linda,Orange
+92899,Anaheim,Orange
+93001,Ventura,Ventura
+93002,Ventura,Ventura
+93003,Ventura,Ventura
+93004,Ventura,Ventura
+93005,Ventura,Ventura
+93006,Ventura,Ventura
+93007,Ventura,Ventura
+93009,Ventura,Ventura
+93010,Camarillo,Ventura
+93011,Camarillo,Ventura
+93012,Camarillo,Ventura
+93013,Carpinteria,Santa Barbara
+93014,Carpinteria,Santa Barbara
+93015,Fillmore,Ventura
+93016,Fillmore,Ventura
+93020,Moorpark,Ventura
+93021,Moorpark,Ventura
+93022,Oak View,Ventura
+93023,Ojai,Ventura
+93024,Ojai,Ventura
+93030,Oxnard,Ventura
+93031,Oxnard,Ventura
+93032,Oxnard,Ventura
+93033,Oxnard,Ventura
+93034,Oxnard,Ventura
+93035,Oxnard,Ventura
+93036,Oxnard,Ventura
+93040,Piru,Ventura
+93041,Port Hueneme,Ventura
+93042,Point Mugu Nawc,Ventura
+93043,Port Hueneme Cbc Base,Ventura
+93044,Port Hueneme,Ventura
+93060,Santa Paula,Ventura
+93061,Santa Paula,Ventura
+93062,Simi Valley,Ventura
+93063,Simi Valley,Ventura
+93064,Brandeis,Ventura
+93065,Simi Valley,Ventura
+93066,Somis,Ventura
+93067,Summerland,Santa Barbara
+93093,Simi Valley,Ventura
+93094,Simi Valley,Ventura
+93099,Simi Valley,Ventura
+93101,Santa Barbara,Santa Barbara
+93102,Santa Barbara,Santa Barbara
+93103,Santa Barbara,Santa Barbara
+93105,Santa Barbara,Santa Barbara
+93106,Santa Barbara,Santa Barbara
+93107,Santa Barbara,Santa Barbara
+93108,Santa Barbara,Santa Barbara
+93109,Santa Barbara,Santa Barbara
+93110,Santa Barbara,Santa Barbara
+93111,Santa Barbara,Santa Barbara
+93116,Goleta,Santa Barbara
+93117,Goleta,Santa Barbara
+93118,Goleta,Santa Barbara
+93120,Santa Barbara,Santa Barbara
+93121,Santa Barbara,Santa Barbara
+93130,Santa Barbara,Santa Barbara
+93140,Santa Barbara,Santa Barbara
+93150,Santa Barbara,Santa Barbara
+93160,Santa Barbara,Santa Barbara
+93190,Santa Barbara,Santa Barbara
+93199,Goleta,Santa Barbara
+93201,Alpaugh,Tulare
+93202,Armona,Kings
+93203,Arvin,Kern
+93204,Avenal,Kings
+93205,Bodfish,Kern
+93206,Buttonwillow,Kern
+93207,California Hot Springs,Tulare
+93208,Camp Nelson,Tulare
+93210,Coalinga,Fresno
+93212,Corcoran,Kings
+93215,Delano,Kern
+93216,Delano,Kern
+93218,Ducor,Tulare
+93219,Earlimart,Tulare
+93220,Edison,Kern
+93221,Exeter,Tulare
+93222,Frazier Park,Kern
+93223,Farmersville,Tulare
+93224,Fellows,Kern
+93225,Frazier Park,Kern
+93226,Glennville,Kern
+93227,Goshen,Tulare
+93230,Hanford,Kings
+93232,Hanford,Kings
+93234,Huron,Fresno
+93235,Ivanhoe,Tulare
+93237,Kaweah,Tulare
+93238,Kernville,Kern
+93239,Kettleman City,Kings
+93240,Lake Isabella,Kern
+93241,Lamont,Kern
+93242,Laton,Fresno
+93243,Lebec,Kern
+93244,Lemon Cove,Tulare
+93245,Lemoore,Kings
+93246,Lemoore,Kings
+93247,Lindsay,Tulare
+93249,Lost Hills,Kern
+93250,Mc Farland,Kern
+93251,Mc Kittrick,Kern
+93252,Maricopa,Kern
+93254,New Cuyama,Santa Barbara
+93255,Onyx,Kern
+93256,Pixley,Tulare
+93257,Porterville,Tulare
+93258,Porterville,Tulare
+93260,Posey,Tulare
+93261,Richgrove,Tulare
+93262,Sequoia National Park,Tulare
+93263,Shafter,Kern
+93265,Springville,Tulare
+93266,Stratford,Kings
+93267,Strathmore,Tulare
+93268,Taft,Kern
+93270,Terra Bella,Tulare
+93271,Three Rivers,Tulare
+93272,Tipton,Tulare
+93274,Tulare,Tulare
+93275,Tulare,Tulare
+93276,Tupman,Kern
+93277,Visalia,Tulare
+93278,Visalia,Tulare
+93279,Visalia,Tulare
+93280,Wasco,Kern
+93282,Waukena,Tulare
+93283,Weldon,Kern
+93285,Wofford Heights,Kern
+93286,Woodlake,Tulare
+93287,Woody,Kern
+93290,Visalia,Tulare
+93291,Visalia,Tulare
+93292,Visalia,Tulare
+93301,Bakersfield,Kern
+93302,Bakersfield,Kern
+93303,Bakersfield,Kern
+93304,Bakersfield,Kern
+93305,Bakersfield,Kern
+93306,Bakersfield,Kern
+93307,Bakersfield,Kern
+93308,Bakersfield,Kern
+93309,Bakersfield,Kern
+93311,Bakersfield,Kern
+93312,Bakersfield,Kern
+93313,Bakersfield,Kern
+93314,Bakersfield,Kern
+93380,Bakersfield,Kern
+93381,Bakersfield,Kern
+93382,Bakersfield,Kern
+93383,Bakersfield,Kern
+93384,Bakersfield,Kern
+93385,Bakersfield,Kern
+93386,Bakersfield,Kern
+93387,Bakersfield,Kern
+93388,Bakersfield,Kern
+93389,Bakersfield,Kern
+93390,Bakersfield,Kern
+93401,San Luis Obispo,San Luis Obispo
+93402,Los Osos,San Luis Obispo
+93403,San Luis Obispo,San Luis Obispo
+93405,San Luis Obispo,San Luis Obispo
+93406,San Luis Obispo,San Luis Obispo
+93407,San Luis Obispo,San Luis Obispo
+93408,San Luis Obispo,San Luis Obispo
+93409,San Luis Obispo,San Luis Obispo
+93410,San Luis Obispo,San Luis Obispo
+93412,Los Osos,San Luis Obispo
+93420,Arroyo Grande,San Luis Obispo
+93421,Arroyo Grande,San Luis Obispo
+93422,Atascadero,San Luis Obispo
+93423,Atascadero,San Luis Obispo
+93424,Avila Beach,San Luis Obispo
+93426,Bradley,Monterey
+93427,Buellton,Santa Barbara
+93428,Cambria,San Luis Obispo
+93429,Casmalia,Santa Barbara
+93430,Cayucos,San Luis Obispo
+93432,Creston,San Luis Obispo
+93433,Grover Beach,San Luis Obispo
+93434,Guadalupe,Santa Barbara
+93435,Harmony,San Luis Obispo
+93436,Lompoc,Santa Barbara
+93437,Lompoc,Santa Barbara
+93438,Lompoc,Santa Barbara
+93440,Los Alamos,Santa Barbara
+93441,Los Olivos,Santa Barbara
+93442,Morro Bay,San Luis Obispo
+93443,Morro Bay,San Luis Obispo
+93444,Nipomo,San Luis Obispo
+93445,Oceano,San Luis Obispo
+93446,Paso Robles,San Luis Obispo
+93447,Paso Robles,San Luis Obispo
+93448,Pismo Beach,San Luis Obispo
+93449,Pismo Beach,San Luis Obispo
+93450,San Ardo,Monterey
+93451,San Miguel,San Luis Obispo
+93452,San Simeon,San Luis Obispo
+93453,Santa Margarita,San Luis Obispo
+93454,Santa Maria,Santa Barbara
+93455,Santa Maria,Santa Barbara
+93456,Santa Maria,Santa Barbara
+93457,Santa Maria,Santa Barbara
+93458,Santa Maria,Santa Barbara
+93460,Santa Ynez,Santa Barbara
+93461,Shandon,San Luis Obispo
+93463,Solvang,Santa Barbara
+93464,Solvang,Santa Barbara
+93465,Templeton,San Luis Obispo
+93475,Oceano,San Luis Obispo
+93483,Grover Beach,San Luis Obispo
+93501,Mojave,Kern
+93502,Mojave,Kern
+93504,California City,Kern
+93505,California City,Kern
+93510,Acton,Los Angeles
+93512,Benton,Mono
+93513,Big Pine,Inyo
+93514,Bishop,Inyo
+93515,Bishop,Inyo
+93516,Boron,Kern
+93517,Bridgeport,Mono
+93518,Caliente,Kern
+93519,Cantil,Kern
+93522,Darwin,Inyo
+93523,Edwards,Kern
+93524,Edwards,Kern
+93526,Independence,Inyo
+93527,Inyokern,Kern
+93528,Johannesburg,Kern
+93529,June Lake,Mono
+93530,Keeler,Inyo
+93531,Keene,Kern
+93532,Lake Hughes,Los Angeles
+93534,Lancaster,Los Angeles
+93535,Lancaster,Los Angeles
+93536,Lancaster,Los Angeles
+93539,Lancaster,Los Angeles
+93541,Lee Vining,Mono
+93542,Little Lake,Inyo
+93543,Littlerock,Los Angeles
+93544,Llano,Los Angeles
+93545,Lone Pine,Inyo
+93546,Mammoth Lakes,Mono
+93549,Olancha,Inyo
+93550,Palmdale,Los Angeles
+93551,Palmdale,Los Angeles
+93552,Palmdale,Los Angeles
+93553,Pearblossom,Los Angeles
+93554,Randsburg,Kern
+93555,Ridgecrest,Kern
+93556,Ridgecrest,Kern
+93558,Red Mountain,San Bernardino
+93560,Rosamond,Kern
+93561,Tehachapi,Kern
+93562,Trona,San Bernardino
+93563,Valyermo,Los Angeles
+93581,Tehachapi,Kern
+93584,Lancaster,Los Angeles
+93586,Lancaster,Los Angeles
+93590,Palmdale,Los Angeles
+93591,Palmdale,Los Angeles
+93592,Trona,San Bernardino
+93596,Boron,Kern
+93599,Palmdale,Los Angeles
+93601,Ahwahnee,Madera
+93602,Auberry,Fresno
+93603,Badger,Tulare
+93604,Bass Lake,Madera
+93605,Big Creek,Fresno
+93606,Biola,Fresno
+93607,Burrel,Fresno
+93608,Cantua Creek,Fresno
+93609,Caruthers,Fresno
+93610,Chowchilla,Madera
+93611,Clovis,Fresno
+93612,Clovis,Fresno
+93613,Clovis,Fresno
+93614,Coarsegold,Madera
+93615,Cutler,Tulare
+93616,Del Rey,Fresno
+93618,Dinuba,Tulare
+93619,Clovis,Fresno
+93620,Dos Palos,Merced
+93621,Dunlap,Fresno
+93622,Firebaugh,Fresno
+93623,Fish Camp,Mariposa
+93624,Five Points,Fresno
+93625,Fowler,Fresno
+93626,Friant,Fresno
+93627,Helm,Fresno
+93628,Hume,Fresno
+93630,Kerman,Fresno
+93631,Kingsburg,Fresno
+93633,Kings Canyon National Pk,Tulare
+93634,Lakeshore,Fresno
+93635,Los Banos,Merced
+93636,Madera,Madera
+93637,Madera,Madera
+93638,Madera,Madera
+93639,Madera,Madera
+93640,Mendota,Fresno
+93641,Miramonte,Fresno
+93642,Mono Hot Springs,Fresno
+93643,North Fork,Madera
+93644,Oakhurst,Madera
+93645,O Neals,Madera
+93646,Orange Cove,Fresno
+93647,Orosi,Tulare
+93648,Parlier,Fresno
+93649,Piedra,Fresno
+93650,Fresno,Fresno
+93651,Prather,Fresno
+93652,Raisin City,Fresno
+93653,Raymond,Madera
+93654,Reedley,Fresno
+93656,Riverdale,Fresno
+93657,Sanger,Fresno
+93660,San Joaquin,Fresno
+93661,Santa Rita Park,Merced
+93662,Selma,Fresno
+93664,Shaver Lake,Fresno
+93665,South Dos Palos,Merced
+93666,Sultana,Tulare
+93667,Tollhouse,Fresno
+93668,Tranquillity,Fresno
+93669,Wishon,Madera
+93670,Yettem,Tulare
+93673,Traver,Tulare
+93675,Squaw Valley,Fresno
+93701,Fresno,Fresno
+93702,Fresno,Fresno
+93703,Fresno,Fresno
+93704,Fresno,Fresno
+93705,Fresno,Fresno
+93706,Fresno,Fresno
+93707,Fresno,Fresno
+93708,Fresno,Fresno
+93709,Fresno,Fresno
+93710,Fresno,Fresno
+93711,Fresno,Fresno
+93712,Fresno,Fresno
+93714,Fresno,Fresno
+93715,Fresno,Fresno
+93716,Fresno,Fresno
+93717,Fresno,Fresno
+93718,Fresno,Fresno
+93720,Fresno,Fresno
+93721,Fresno,Fresno
+93722,Fresno,Fresno
+93723,Fresno,Fresno
+93724,Fresno,Fresno
+93725,Fresno,Fresno
+93726,Fresno,Fresno
+93727,Fresno,Fresno
+93728,Fresno,Fresno
+93729,Fresno,Fresno
+93730,Fresno,Fresno
+93740,Fresno,Fresno
+93741,Fresno,Fresno
+93744,Fresno,Fresno
+93745,Fresno,Fresno
+93747,Fresno,Fresno
+93750,Fresno,Fresno
+93755,Fresno,Fresno
+93760,Fresno,Fresno
+93761,Fresno,Fresno
+93764,Fresno,Fresno
+93765,Fresno,Fresno
+93771,Fresno,Fresno
+93772,Fresno,Fresno
+93773,Fresno,Fresno
+93774,Fresno,Fresno
+93775,Fresno,Fresno
+93776,Fresno,Fresno
+93777,Fresno,Fresno
+93778,Fresno,Fresno
+93779,Fresno,Fresno
+93780,Fresno,Fresno
+93784,Fresno,Fresno
+93786,Fresno,Fresno
+93790,Fresno,Fresno
+93791,Fresno,Fresno
+93792,Fresno,Fresno
+93793,Fresno,Fresno
+93794,Fresno,Fresno
+93844,Fresno,Fresno
+93888,Fresno,Fresno
+93901,Salinas,Monterey
+93902,Salinas,Monterey
+93905,Salinas,Monterey
+93906,Salinas,Monterey
+93907,Salinas,Monterey
+93908,Salinas,Monterey
+93912,Salinas,Monterey
+93915,Salinas,Monterey
+93920,Big Sur,Monterey
+93921,Carmel By The Sea,Monterey
+93922,Carmel,Monterey
+93923,Carmel,Monterey
+93924,Carmel Valley,Monterey
+93925,Chualar,Monterey
+93926,Gonzales,Monterey
+93927,Greenfield,Monterey
+93928,Jolon,Monterey
+93930,King City,Monterey
+93932,Lockwood,Monterey
+93933,Marina,Monterey
+93940,Monterey,Monterey
+93942,Monterey,Monterey
+93943,Monterey,Monterey
+93944,Monterey,Monterey
+93950,Pacific Grove,Monterey
+93953,Pebble Beach,Monterey
+93954,San Lucas,Monterey
+93955,Seaside,Monterey
+93960,Soledad,Monterey
+93962,Spreckels,Monterey
+94002,Belmont,San Mateo
+94005,Brisbane,San Mateo
+94010,Burlingame,San Mateo
+94011,Burlingame,San Mateo
+94013,Daly City,San Mateo
+94014,Daly City,San Mateo
+94015,Daly City,San Mateo
+94016,Daly City,San Mateo
+94017,Daly City,San Mateo
+94018,El Granada,San Mateo
+94019,Half Moon Bay,San Mateo
+94020,La Honda,San Mateo
+94021,Loma Mar,San Mateo
+94022,Los Altos,Santa Clara
+94023,Los Altos,Santa Clara
+94024,Los Altos,Santa Clara
+94025,Menlo Park,San Mateo
+94026,Menlo Park,San Mateo
+94027,Atherton,San Mateo
+94028,Portola Valley,San Mateo
+94030,Millbrae,San Mateo
+94035,Mountain View,Santa Clara
+94037,Montara,San Mateo
+94038,Moss Beach,San Mateo
+94039,Mountain View,Santa Clara
+94040,Mountain View,Santa Clara
+94041,Mountain View,Santa Clara
+94042,Mountain View,Santa Clara
+94043,Mountain View,Santa Clara
+94044,Pacifica,San Mateo
+94060,Pescadero,San Mateo
+94061,Redwood City,San Mateo
+94062,Redwood City,San Mateo
+94063,Redwood City,San Mateo
+94064,Redwood City,San Mateo
+94065,Redwood City,San Mateo
+94066,San Bruno,San Mateo
+94070,San Carlos,San Mateo
+94074,San Gregorio,San Mateo
+94080,South San Francisco,San Mateo
+94083,South San Francisco,San Mateo
+94085,Sunnyvale,Santa Clara
+94086,Sunnyvale,Santa Clara
+94087,Sunnyvale,Santa Clara
+94088,Sunnyvale,Santa Clara
+94089,Sunnyvale,Santa Clara
+94096,San Bruno,San Mateo
+94098,San Bruno,San Mateo
+94101,San Francisco,San Francisco
+94102,San Francisco,San Francisco
+94103,San Francisco,San Francisco
+94104,San Francisco,San Francisco
+94105,San Francisco,San Francisco
+94106,San Francisco,San Francisco
+94107,San Francisco,San Francisco
+94108,San Francisco,San Francisco
+94109,San Francisco,San Francisco
+94110,San Francisco,San Francisco
+94111,San Francisco,San Francisco
+94112,San Francisco,San Francisco
+94114,San Francisco,San Francisco
+94115,San Francisco,San Francisco
+94116,San Francisco,San Francisco
+94117,San Francisco,San Francisco
+94118,San Francisco,San Francisco
+94119,San Francisco,San Francisco
+94120,San Francisco,San Francisco
+94121,San Francisco,San Francisco
+94122,San Francisco,San Francisco
+94123,San Francisco,San Francisco
+94124,San Francisco,San Francisco
+94125,San Francisco,San Francisco
+94126,San Francisco,San Francisco
+94127,San Francisco,San Francisco
+94128,San Francisco,San Mateo
+94129,San Francisco,San Francisco
+94130,San Francisco,San Francisco
+94131,San Francisco,San Francisco
+94132,San Francisco,San Francisco
+94133,San Francisco,San Francisco
+94134,San Francisco,San Francisco
+94135,San Francisco,San Francisco
+94136,San Francisco,San Francisco
+94137,San Francisco,San Francisco
+94138,San Francisco,San Francisco
+94139,San Francisco,San Francisco
+94140,San Francisco,San Francisco
+94141,San Francisco,San Francisco
+94142,San Francisco,San Francisco
+94143,San Francisco,San Francisco
+94144,San Francisco,San Francisco
+94145,San Francisco,San Francisco
+94146,San Francisco,San Francisco
+94147,San Francisco,San Francisco
+94150,San Francisco,San Francisco
+94151,San Francisco,San Francisco
+94152,San Francisco,San Francisco
+94153,San Francisco,San Francisco
+94154,San Francisco,San Francisco
+94155,San Francisco,San Francisco
+94156,San Francisco,San Francisco
+94157,San Francisco,San Francisco
+94158,San Francisco,San Francisco
+94159,San Francisco,San Francisco
+94160,San Francisco,San Francisco
+94161,San Francisco,San Francisco
+94162,San Francisco,San Francisco
+94163,San Francisco,San Francisco
+94164,San Francisco,San Francisco
+94165,San Francisco,San Francisco
+94166,San Francisco,San Francisco
+94167,San Francisco,San Francisco
+94168,San Francisco,San Francisco
+94169,San Francisco,San Francisco
+94170,San Francisco,San Francisco
+94171,San Francisco,San Francisco
+94172,San Francisco,San Francisco
+94175,San Francisco,San Francisco
+94177,San Francisco,San Francisco
+94188,San Francisco,San Francisco
+94199,San Francisco,San Francisco
+94203,Sacramento,Sacramento
+94204,Sacramento,Sacramento
+94205,Sacramento,Sacramento
+94206,Sacramento,Sacramento
+94207,Sacramento,Sacramento
+94208,Sacramento,Sacramento
+94209,Sacramento,Sacramento
+94211,Sacramento,Sacramento
+94229,Sacramento,Sacramento
+94230,Sacramento,Sacramento
+94232,Sacramento,Sacramento
+94234,Sacramento,Sacramento
+94235,Sacramento,Sacramento
+94236,Sacramento,Sacramento
+94237,Sacramento,Sacramento
+94239,Sacramento,Sacramento
+94240,Sacramento,Sacramento
+94244,Sacramento,Sacramento
+94245,Sacramento,Sacramento
+94246,Sacramento,Sacramento
+94247,Sacramento,Sacramento
+94248,Sacramento,Sacramento
+94249,Sacramento,Sacramento
+94250,Sacramento,Sacramento
+94252,Sacramento,Sacramento
+94254,Sacramento,Sacramento
+94256,Sacramento,Sacramento
+94257,Sacramento,Sacramento
+94258,Sacramento,Sacramento
+94259,Sacramento,Sacramento
+94261,Sacramento,Sacramento
+94262,Sacramento,Sacramento
+94263,Sacramento,Sacramento
+94267,Sacramento,Sacramento
+94268,Sacramento,Sacramento
+94269,Sacramento,Sacramento
+94271,Sacramento,Sacramento
+94273,Sacramento,Sacramento
+94274,Sacramento,Sacramento
+94277,Sacramento,Sacramento
+94278,Sacramento,Sacramento
+94279,Sacramento,Sacramento
+94280,Sacramento,Sacramento
+94282,Sacramento,Sacramento
+94283,Sacramento,Sacramento
+94284,Sacramento,Sacramento
+94285,Sacramento,Sacramento
+94286,Sacramento,Sacramento
+94287,Sacramento,Sacramento
+94288,Sacramento,Sacramento
+94289,Sacramento,Sacramento
+94290,Sacramento,Sacramento
+94291,Sacramento,Sacramento
+94293,Sacramento,Sacramento
+94294,Sacramento,Sacramento
+94295,Sacramento,Sacramento
+94296,Sacramento,Sacramento
+94297,Sacramento,Sacramento
+94298,Sacramento,Sacramento
+94299,Sacramento,Sacramento
+94301,Palo Alto,Santa Clara
+94302,Palo Alto,Santa Clara
+94303,Palo Alto,Santa Clara
+94304,Palo Alto,Santa Clara
+94305,Stanford,Santa Clara
+94306,Palo Alto,Santa Clara
+94309,Palo Alto,Santa Clara
+94401,San Mateo,San Mateo
+94402,San Mateo,San Mateo
+94403,San Mateo,San Mateo
+94404,San Mateo,San Mateo
+94497,San Mateo,San Mateo
+94501,Alameda,Alameda
+94502,Alameda,Alameda
+94503,American Canyon,Napa
+94506,Danville,Contra Costa
+94507,Alamo,Contra Costa
+94508,Angwin,Napa
+94509,Antioch,Contra Costa
+94510,Benicia,Solano
+94511,Bethel Island,Contra Costa
+94512,Birds Landing,Solano
+94513,Brentwood,Contra Costa
+94514,Byron,Contra Costa
+94515,Calistoga,Napa
+94516,Canyon,Contra Costa
+94517,Clayton,Contra Costa
+94518,Concord,Contra Costa
+94519,Concord,Contra Costa
+94520,Concord,Contra Costa
+94521,Concord,Contra Costa
+94522,Concord,Contra Costa
+94523,Pleasant Hill,Contra Costa
+94524,Concord,Contra Costa
+94525,Crockett,Contra Costa
+94526,Danville,Contra Costa
+94527,Concord,Contra Costa
+94528,Diablo,Contra Costa
+94529,Concord,Contra Costa
+94530,El Cerrito,Contra Costa
+94531,Antioch,Contra Costa
+94533,Fairfield,Solano
+94534,Fairfield,Solano
+94535,Travis Afb,Solano
+94536,Fremont,Alameda
+94537,Fremont,Alameda
+94538,Fremont,Alameda
+94539,Fremont,Alameda
+94540,Hayward,Alameda
+94541,Hayward,Alameda
+94542,Hayward,Alameda
+94543,Hayward,Alameda
+94544,Hayward,Alameda
+94545,Hayward,Alameda
+94546,Castro Valley,Alameda
+94547,Hercules,Contra Costa
+94548,Knightsen,Contra Costa
+94549,Lafayette,Contra Costa
+94550,Livermore,Alameda
+94551,Livermore,Alameda
+94552,Castro Valley,Alameda
+94553,Martinez,Contra Costa
+94555,Fremont,Alameda
+94556,Moraga,Contra Costa
+94557,Hayward,Alameda
+94558,Napa,Napa
+94559,Napa,Napa
+94560,Newark,Alameda
+94561,Oakley,Contra Costa
+94562,Oakville,Napa
+94563,Orinda,Contra Costa
+94564,Pinole,Contra Costa
+94565,Pittsburg,Contra Costa
+94566,Pleasanton,Alameda
+94567,Pope Valley,Napa
+94568,Dublin,Alameda
+94569,Port Costa,Contra Costa
+94570,Moraga,Contra Costa
+94571,Rio Vista,Solano
+94572,Rodeo,Contra Costa
+94573,Rutherford,Napa
+94574,Saint Helena,Napa
+94575,Moraga,Contra Costa
+94576,Deer Park,Napa
+94577,San Leandro,Alameda
+94578,San Leandro,Alameda
+94579,San Leandro,Alameda
+94580,San Lorenzo,Alameda
+94581,Napa,Napa
+94582,San Ramon,Contra Costa
+94583,San Ramon,Contra Costa
+94585,Suisun City,Solano
+94586,Sunol,Alameda
+94587,Union City,Alameda
+94588,Pleasanton,Alameda
+94589,Vallejo,Solano
+94590,Vallejo,Solano
+94591,Vallejo,Solano
+94592,Vallejo,Solano
+94595,Walnut Creek,Contra Costa
+94596,Walnut Creek,Contra Costa
+94597,Walnut Creek,Contra Costa
+94598,Walnut Creek,Contra Costa
+94599,Yountville,Napa
+94601,Oakland,Alameda
+94602,Oakland,Alameda
+94603,Oakland,Alameda
+94604,Oakland,Alameda
+94605,Oakland,Alameda
+94606,Oakland,Alameda
+94607,Oakland,Alameda
+94608,Emeryville,Alameda
+94609,Oakland,Alameda
+94610,Oakland,Alameda
+94611,Oakland,Alameda
+94612,Oakland,Alameda
+94613,Oakland,Alameda
+94614,Oakland,Alameda
+94615,Oakland,Alameda
+94617,Oakland,Alameda
+94618,Oakland,Alameda
+94619,Oakland,Alameda
+94620,Piedmont,Alameda
+94621,Oakland,Alameda
+94622,Oakland,Alameda
+94623,Oakland,Alameda
+94624,Oakland,Alameda
+94625,Oakland,Alameda
+94649,Oakland,Alameda
+94659,Oakland,Alameda
+94660,Oakland,Alameda
+94661,Oakland,Alameda
+94662,Emeryville,Alameda
+94666,Oakland,Alameda
+94701,Berkeley,Alameda
+94702,Berkeley,Alameda
+94703,Berkeley,Alameda
+94704,Berkeley,Alameda
+94705,Berkeley,Alameda
+94706,Albany,Alameda
+94707,Berkeley,Alameda
+94708,Berkeley,Alameda
+94709,Berkeley,Alameda
+94710,Berkeley,Alameda
+94712,Berkeley,Alameda
+94720,Berkeley,Alameda
+94801,Richmond,Contra Costa
+94802,Richmond,Contra Costa
+94803,El Sobrante,Contra Costa
+94804,Richmond,Contra Costa
+94805,Richmond,Contra Costa
+94806,San Pablo,Contra Costa
+94807,Richmond,Contra Costa
+94808,Richmond,Contra Costa
+94820,El Sobrante,Contra Costa
+94850,Richmond,Contra Costa
+94901,San Rafael,Marin
+94903,San Rafael,Marin
+94904,Greenbrae,Marin
+94912,San Rafael,Marin
+94913,San Rafael,Marin
+94914,Kentfield,Marin
+94915,San Rafael,Marin
+94920,Belvedere Tiburon,Marin
+94922,Bodega,Sonoma
+94923,Bodega Bay,Sonoma
+94924,Bolinas,Marin
+94925,Corte Madera,Marin
+94926,Cotati,Sonoma
+94927,Rohnert Park,Sonoma
+94928,Rohnert Park,Sonoma
+94929,Dillon Beach,Marin
+94930,Fairfax,Marin
+94931,Cotati,Sonoma
+94933,Forest Knolls,Marin
+94937,Inverness,Marin
+94938,Lagunitas,Marin
+94939,Larkspur,Marin
+94940,Marshall,Marin
+94941,Mill Valley,Marin
+94942,Mill Valley,Marin
+94945,Novato,Marin
+94946,Nicasio,Marin
+94947,Novato,Marin
+94948,Novato,Marin
+94949,Novato,Marin
+94950,Olema,Marin
+94951,Penngrove,Sonoma
+94952,Petaluma,Sonoma
+94953,Petaluma,Sonoma
+94954,Petaluma,Sonoma
+94955,Petaluma,Sonoma
+94956,Point Reyes Station,Marin
+94957,Ross,Marin
+94960,San Anselmo,Marin
+94963,San Geronimo,Marin
+94964,San Quentin,Marin
+94965,Sausalito,Marin
+94966,Sausalito,Marin
+94970,Stinson Beach,Marin
+94971,Tomales,Marin
+94972,Valley Ford,Sonoma
+94973,Woodacre,Marin
+94974,San Quentin,Marin
+94975,Petaluma,Sonoma
+94976,Corte Madera,Marin
+94977,Larkspur,Marin
+94978,Fairfax,Marin
+94979,San Anselmo,Marin
+94998,Novato,Marin
+94999,Petaluma,Sonoma
+95001,Aptos,Santa Cruz
+95002,Alviso,Santa Clara
+95003,Aptos,Santa Cruz
+95004,Aromas,Monterey
+95005,Ben Lomond,Santa Cruz
+95006,Boulder Creek,Santa Cruz
+95007,Brookdale,Santa Cruz
+95008,Campbell,Santa Clara
+95009,Campbell,Santa Clara
+95010,Capitola,Santa Cruz
+95011,Campbell,Santa Clara
+95012,Castroville,Monterey
+95013,Coyote,Santa Clara
+95014,Cupertino,Santa Clara
+95015,Cupertino,Santa Clara
+95017,Davenport,Santa Cruz
+95018,Felton,Santa Cruz
+95019,Freedom,Santa Cruz
+95020,Gilroy,Santa Clara
+95021,Gilroy,Santa Clara
+95023,Hollister,San Benito
+95024,Hollister,San Benito
+95026,Holy City,Santa Clara
+95030,Los Gatos,Santa Clara
+95031,Los Gatos,Santa Clara
+95032,Los Gatos,Santa Clara
+95033,Los Gatos,Santa Cruz
+95035,Milpitas,Santa Clara
+95036,Milpitas,Santa Clara
+95037,Morgan Hill,Santa Clara
+95038,Morgan Hill,Santa Clara
+95039,Moss Landing,Monterey
+95041,Mount Hermon,Santa Cruz
+95042,New Almaden,Santa Clara
+95043,Paicines,San Benito
+95044,Redwood Estates,Santa Clara
+95045,San Juan Bautista,San Benito
+95046,San Martin,Santa Clara
+95050,Santa Clara,Santa Clara
+95051,Santa Clara,Santa Clara
+95052,Santa Clara,Santa Clara
+95053,Santa Clara,Santa Clara
+95054,Santa Clara,Santa Clara
+95055,Santa Clara,Santa Clara
+95056,Santa Clara,Santa Clara
+95060,Santa Cruz,Santa Cruz
+95061,Santa Cruz,Santa Cruz
+95062,Santa Cruz,Santa Cruz
+95063,Santa Cruz,Santa Cruz
+95064,Santa Cruz,Santa Cruz
+95065,Santa Cruz,Santa Cruz
+95066,Scotts Valley,Santa Cruz
+95067,Scotts Valley,Santa Cruz
+95070,Saratoga,Santa Clara
+95071,Saratoga,Santa Clara
+95073,Soquel,Santa Cruz
+95075,Tres Pinos,San Benito
+95076,Watsonville,Santa Cruz
+95077,Watsonville,Santa Cruz
+95101,San Jose,Santa Clara
+95103,San Jose,Santa Clara
+95106,San Jose,Santa Clara
+95108,San Jose,Santa Clara
+95109,San Jose,Santa Clara
+95110,San Jose,Santa Clara
+95111,San Jose,Santa Clara
+95112,San Jose,Santa Clara
+95113,San Jose,Santa Clara
+95115,San Jose,Santa Clara
+95116,San Jose,Santa Clara
+95117,San Jose,Santa Clara
+95118,San Jose,Santa Clara
+95119,San Jose,Santa Clara
+95120,San Jose,Santa Clara
+95121,San Jose,Santa Clara
+95122,San Jose,Santa Clara
+95123,San Jose,Santa Clara
+95124,San Jose,Santa Clara
+95125,San Jose,Santa Clara
+95126,San Jose,Santa Clara
+95127,San Jose,Santa Clara
+95128,San Jose,Santa Clara
+95129,San Jose,Santa Clara
+95130,San Jose,Santa Clara
+95131,San Jose,Santa Clara
+95132,San Jose,Santa Clara
+95133,San Jose,Santa Clara
+95134,San Jose,Santa Clara
+95135,San Jose,Santa Clara
+95136,San Jose,Santa Clara
+95138,San Jose,Santa Clara
+95139,San Jose,Santa Clara
+95140,Mount Hamilton,Santa Clara
+95141,San Jose,Santa Clara
+95148,San Jose,Santa Clara
+95150,San Jose,Santa Clara
+95151,San Jose,Santa Clara
+95152,San Jose,Santa Clara
+95153,San Jose,Santa Clara
+95154,San Jose,Santa Clara
+95155,San Jose,Santa Clara
+95156,San Jose,Santa Clara
+95157,San Jose,Santa Clara
+95158,San Jose,Santa Clara
+95159,San Jose,Santa Clara
+95160,San Jose,Santa Clara
+95161,San Jose,Santa Clara
+95164,San Jose,Santa Clara
+95170,San Jose,Santa Clara
+95172,San Jose,Santa Clara
+95173,San Jose,Santa Clara
+95190,San Jose,Santa Clara
+95191,San Jose,Santa Clara
+95192,San Jose,Santa Clara
+95193,San Jose,Santa Clara
+95194,San Jose,Santa Clara
+95196,San Jose,Santa Clara
+95201,Stockton,San Joaquin
+95202,Stockton,San Joaquin
+95203,Stockton,San Joaquin
+95204,Stockton,San Joaquin
+95205,Stockton,San Joaquin
+95206,Stockton,San Joaquin
+95207,Stockton,San Joaquin
+95208,Stockton,San Joaquin
+95209,Stockton,San Joaquin
+95210,Stockton,San Joaquin
+95211,Stockton,San Joaquin
+95212,Stockton,San Joaquin
+95213,Stockton,San Joaquin
+95215,Stockton,San Joaquin
+95219,Stockton,San Joaquin
+95220,Acampo,San Joaquin
+95221,Altaville,Calaveras
+95222,Angels Camp,Calaveras
+95223,Arnold,Calaveras
+95224,Avery,Calaveras
+95225,Burson,Calaveras
+95226,Campo Seco,Calaveras
+95227,Clements,San Joaquin
+95228,Copperopolis,Calaveras
+95229,Douglas Flat,Calaveras
+95230,Farmington,San Joaquin
+95231,French Camp,San Joaquin
+95232,Glencoe,Calaveras
+95233,Hathaway Pines,Calaveras
+95234,Holt,San Joaquin
+95236,Linden,San Joaquin
+95237,Lockeford,San Joaquin
+95240,Lodi,San Joaquin
+95241,Lodi,San Joaquin
+95242,Lodi,San Joaquin
+95245,Mokelumne Hill,Calaveras
+95246,Mountain Ranch,Calaveras
+95247,Murphys,Calaveras
+95248,Rail Road Flat,Calaveras
+95249,San Andreas,Calaveras
+95250,Sheep Ranch,Calaveras
+95251,Vallecito,Calaveras
+95252,Valley Springs,Calaveras
+95253,Victor,San Joaquin
+95254,Wallace,Calaveras
+95255,West Point,Calaveras
+95257,Wilseyville,Calaveras
+95258,Woodbridge,San Joaquin
+95267,Stockton,San Joaquin
+95269,Stockton,San Joaquin
+95296,Stockton,San Joaquin
+95297,Stockton,San Joaquin
+95301,Atwater,Merced
+95303,Ballico,Merced
+95304,Tracy,San Joaquin
+95305,Big Oak Flat,Tuolumne
+95306,Catheys Valley,Mariposa
+95307,Ceres,Stanislaus
+95309,Chinese Camp,Tuolumne
+95310,Columbia,Tuolumne
+95311,Coulterville,Mariposa
+95312,Cressey,Merced
+95313,Crows Landing,Stanislaus
+95314,Dardanelle,Tuolumne
+95315,Delhi,Merced
+95316,Denair,Stanislaus
+95317,El Nido,Merced
+95318,El Portal,Mariposa
+95319,Empire,Stanislaus
+95320,Escalon,San Joaquin
+95321,Groveland,Tuolumne
+95322,Gustine,Merced
+95323,Hickman,Stanislaus
+95324,Hilmar,Merced
+95325,Hornitos,Mariposa
+95326,Hughson,Stanislaus
+95327,Jamestown,Tuolumne
+95328,Keyes,Stanislaus
+95329,La Grange,Stanislaus
+95330,Lathrop,San Joaquin
+95333,Le Grand,Merced
+95334,Livingston,Merced
+95335,Long Barn,Tuolumne
+95336,Manteca,San Joaquin
+95337,Manteca,San Joaquin
+95338,Mariposa,Mariposa
+95340,Merced,Merced
+95341,Merced,Merced
+95343,Merced,Merced
+95344,Merced,Merced
+95345,Midpines,Mariposa
+95346,Mi Wuk Village,Tuolumne
+95347,Moccasin,Tuolumne
+95348,Merced,Merced
+95350,Modesto,Stanislaus
+95351,Modesto,Stanislaus
+95352,Modesto,Stanislaus
+95353,Modesto,Stanislaus
+95354,Modesto,Stanislaus
+95355,Modesto,Stanislaus
+95356,Modesto,Stanislaus
+95357,Modesto,Stanislaus
+95358,Modesto,Stanislaus
+95360,Newman,Stanislaus
+95361,Oakdale,Stanislaus
+95363,Patterson,Stanislaus
+95364,Pinecrest,Tuolumne
+95365,Planada,Merced
+95366,Ripon,San Joaquin
+95367,Riverbank,Stanislaus
+95368,Salida,Stanislaus
+95369,Snelling,Merced
+95370,Sonora,Tuolumne
+95372,Soulsbyville,Tuolumne
+95373,Standard,Tuolumne
+95374,Stevinson,Merced
+95375,Strawberry,Tuolumne
+95376,Tracy,San Joaquin
+95377,Tracy,San Joaquin
+95378,Tracy,San Joaquin
+95379,Tuolumne,Tuolumne
+95380,Turlock,Stanislaus
+95381,Turlock,Stanislaus
+95382,Turlock,Stanislaus
+95383,Twain Harte,Tuolumne
+95385,Vernalis,San Joaquin
+95386,Waterford,Stanislaus
+95387,Westley,Stanislaus
+95388,Winton,Merced
+95389,Yosemite National Park,Mariposa
+95391,Tracy,San Joaquin
+95397,Modesto,Stanislaus
+95401,Santa Rosa,Sonoma
+95402,Santa Rosa,Sonoma
+95403,Santa Rosa,Sonoma
+95404,Santa Rosa,Sonoma
+95405,Santa Rosa,Sonoma
+95406,Santa Rosa,Sonoma
+95407,Santa Rosa,Sonoma
+95408,Santa Rosa,Sonoma
+95409,Santa Rosa,Sonoma
+95410,Albion,Mendocino
+95412,Annapolis,Sonoma
+95415,Boonville,Mendocino
+95416,Boyes Hot Springs,Sonoma
+95417,Branscomb,Mendocino
+95418,Calpella,Mendocino
+95419,Camp Meeker,Sonoma
+95420,Caspar,Mendocino
+95421,Cazadero,Sonoma
+95422,Clearlake,Lake
+95423,Clearlake Oaks,Lake
+95424,Clearlake Park,Lake
+95425,Cloverdale,Sonoma
+95426,Cobb,Lake
+95427,Comptche,Mendocino
+95428,Covelo,Mendocino
+95429,Dos Rios,Mendocino
+95430,Duncans Mills,Sonoma
+95431,Eldridge,Sonoma
+95432,Elk,Mendocino
+95433,El Verano,Sonoma
+95435,Finley,Lake
+95436,Forestville,Sonoma
+95437,Fort Bragg,Mendocino
+95439,Fulton,Sonoma
+95441,Geyserville,Sonoma
+95442,Glen Ellen,Sonoma
+95443,Glenhaven,Lake
+95444,Graton,Sonoma
+95445,Gualala,Mendocino
+95446,Guerneville,Sonoma
+95448,Healdsburg,Sonoma
+95449,Hopland,Mendocino
+95450,Jenner,Sonoma
+95451,Kelseyville,Lake
+95452,Kenwood,Sonoma
+95453,Lakeport,Lake
+95454,Laytonville,Mendocino
+95456,Littleriver,Mendocino
+95457,Lower Lake,Lake
+95458,Lucerne,Lake
+95459,Manchester,Mendocino
+95460,Mendocino,Mendocino
+95461,Middletown,Lake
+95462,Monte Rio,Sonoma
+95463,Navarro,Mendocino
+95464,Nice,Lake
+95465,Occidental,Sonoma
+95466,Philo,Mendocino
+95467,Hidden Valley Lake,Lake
+95468,Point Arena,Mendocino
+95469,Potter Valley,Mendocino
+95470,Redwood Valley,Mendocino
+95471,Rio Nido,Sonoma
+95472,Sebastopol,Sonoma
+95473,Sebastopol,Sonoma
+95476,Sonoma,Sonoma
+95480,Stewarts Point,Sonoma
+95481,Talmage,Mendocino
+95482,Ukiah,Mendocino
+95485,Upper Lake,Lake
+95486,Villa Grande,Sonoma
+95487,Vineburg,Sonoma
+95488,Westport,Mendocino
+95490,Willits,Mendocino
+95492,Windsor,Sonoma
+95493,Witter Springs,Lake
+95494,Yorkville,Mendocino
+95497,The Sea Ranch,Sonoma
+95501,Eureka,Humboldt
+95502,Eureka,Humboldt
+95503,Eureka,Humboldt
+95511,Alderpoint,Humboldt
+95514,Blocksburg,Humboldt
+95518,Arcata,Humboldt
+95519,Mckinleyville,Humboldt
+95521,Arcata,Humboldt
+95524,Bayside,Humboldt
+95525,Blue Lake,Humboldt
+95526,Bridgeville,Humboldt
+95527,Burnt Ranch,Trinity
+95528,Carlotta,Humboldt
+95531,Crescent City,Del Norte
+95532,Crescent City,Del Norte
+95534,Cutten,Humboldt
+95536,Ferndale,Humboldt
+95537,Fields Landing,Humboldt
+95538,Fort Dick,Del Norte
+95540,Fortuna,Humboldt
+95542,Garberville,Humboldt
+95543,Gasquet,Del Norte
+95545,Honeydew,Humboldt
+95546,Hoopa,Humboldt
+95547,Hydesville,Humboldt
+95548,Klamath,Del Norte
+95549,Kneeland,Humboldt
+95550,Korbel,Humboldt
+95551,Loleta,Humboldt
+95552,Mad River,Trinity
+95553,Miranda,Humboldt
+95554,Myers Flat,Humboldt
+95555,Orick,Humboldt
+95556,Orleans,Humboldt
+95558,Petrolia,Humboldt
+95559,Phillipsville,Humboldt
+95560,Redway,Humboldt
+95562,Rio Dell,Humboldt
+95563,Salyer,Trinity
+95564,Samoa,Humboldt
+95565,Scotia,Humboldt
+95567,Smith River,Del Norte
+95568,Somes Bar,Siskiyou
+95569,Redcrest,Humboldt
+95570,Trinidad,Humboldt
+95571,Weott,Humboldt
+95573,Willow Creek,Humboldt
+95585,Leggett,Mendocino
+95587,Piercy,Mendocino
+95589,Whitethorn,Humboldt
+95595,Zenia,Trinity
+95601,Amador City,Amador
+95602,Auburn,Placer
+95603,Auburn,Placer
+95604,Auburn,Placer
+95605,West Sacramento,Yolo
+95606,Brooks,Yolo
+95607,Capay,Yolo
+95608,Carmichael,Sacramento
+95609,Carmichael,Sacramento
+95610,Citrus Heights,Sacramento
+95611,Citrus Heights,Sacramento
+95612,Clarksburg,Yolo
+95613,Coloma,El Dorado
+95614,Cool,El Dorado
+95615,Courtland,Sacramento
+95616,Davis,Yolo
+95617,Davis,Yolo
+95618,Davis,Yolo
+95619,Diamond Springs,El Dorado
+95620,Dixon,Solano
+95621,Citrus Heights,Sacramento
+95623,El Dorado,El Dorado
+95624,Elk Grove,Sacramento
+95625,Elmira,Solano
+95626,Elverta,Sacramento
+95627,Esparto,Yolo
+95628,Fair Oaks,Sacramento
+95629,Fiddletown,Amador
+95630,Folsom,Sacramento
+95631,Foresthill,Placer
+95632,Galt,Sacramento
+95633,Garden Valley,El Dorado
+95634,Georgetown,El Dorado
+95635,Greenwood,El Dorado
+95636,Grizzly Flats,El Dorado
+95637,Guinda,Yolo
+95638,Herald,Sacramento
+95639,Hood,Sacramento
+95640,Ione,Amador
+95641,Isleton,Sacramento
+95642,Jackson,Amador
+95644,Kit Carson,Amador
+95645,Knights Landing,Yolo
+95646,Kirkwood,Alpine
+95648,Lincoln,Placer
+95650,Loomis,Placer
+95651,Lotus,El Dorado
+95652,Mcclellan,Sacramento
+95653,Madison,Yolo
+95654,Martell,Amador
+95655,Mather,Sacramento
+95656,Mount Aukum,El Dorado
+95658,Newcastle,Placer
+95659,Nicolaus,Sutter
+95660,North Highlands,Sacramento
+95661,Roseville,Placer
+95662,Orangevale,Sacramento
+95663,Penryn,Placer
+95664,Pilot Hill,El Dorado
+95665,Pine Grove,Amador
+95666,Pioneer,Amador
+95667,Placerville,El Dorado
+95668,Pleasant Grove,Sutter
+95669,Plymouth,Amador
+95670,Rancho Cordova,Sacramento
+95671,Represa,Sacramento
+95672,Rescue,El Dorado
+95673,Rio Linda,Sacramento
+95674,Rio Oso,Sutter
+95675,River Pines,Amador
+95676,Robbins,Sutter
+95677,Rocklin,Placer
+95678,Roseville,Placer
+95679,Rumsey,Yolo
+95680,Ryde,Sacramento
+95681,Sheridan,Placer
+95682,Shingle Springs,El Dorado
+95683,Sloughhouse,Sacramento
+95684,Somerset,El Dorado
+95685,Sutter Creek,Amador
+95686,Thornton,San Joaquin
+95687,Vacaville,Solano
+95688,Vacaville,Solano
+95689,Volcano,Amador
+95690,Walnut Grove,Sacramento
+95691,West Sacramento,Yolo
+95692,Wheatland,Yuba
+95693,Wilton,Sacramento
+95694,Winters,Yolo
+95695,Woodland,Yolo
+95696,Vacaville,Solano
+95697,Yolo,Yolo
+95698,Zamora,Yolo
+95699,Drytown,Amador
+95701,Alta,Placer
+95703,Applegate,Placer
+95709,Camino,El Dorado
+95712,Chicago Park,Nevada
+95713,Colfax,Placer
+95714,Dutch Flat,Placer
+95715,Emigrant Gap,Placer
+95717,Gold Run,Placer
+95720,Kyburz,El Dorado
+95721,Echo Lake,El Dorado
+95722,Meadow Vista,Placer
+95724,Norden,Nevada
+95726,Pollock Pines,El Dorado
+95728,Soda Springs,Nevada
+95735,Twin Bridges,El Dorado
+95736,Weimar,Placer
+95741,Rancho Cordova,Sacramento
+95742,Rancho Cordova,Sacramento
+95746,Granite Bay,Placer
+95747,Roseville,Placer
+95757,Elk Grove,Sacramento
+95758,Elk Grove,Sacramento
+95759,Elk Grove,Sacramento
+95762,El Dorado Hills,El Dorado
+95763,Folsom,Sacramento
+95765,Rocklin,Placer
+95776,Woodland,Yolo
+95798,West Sacramento,Yolo
+95799,West Sacramento,Yolo
+95812,Sacramento,Sacramento
+95813,Sacramento,Sacramento
+95814,Sacramento,Sacramento
+95815,Sacramento,Sacramento
+95816,Sacramento,Sacramento
+95817,Sacramento,Sacramento
+95818,Sacramento,Sacramento
+95819,Sacramento,Sacramento
+95820,Sacramento,Sacramento
+95821,Sacramento,Sacramento
+95822,Sacramento,Sacramento
+95823,Sacramento,Sacramento
+95824,Sacramento,Sacramento
+95825,Sacramento,Sacramento
+95826,Sacramento,Sacramento
+95827,Sacramento,Sacramento
+95828,Sacramento,Sacramento
+95829,Sacramento,Sacramento
+95830,Sacramento,Sacramento
+95831,Sacramento,Sacramento
+95832,Sacramento,Sacramento
+95833,Sacramento,Sacramento
+95834,Sacramento,Sacramento
+95835,Sacramento,Sacramento
+95836,Sacramento,Sacramento
+95837,Sacramento,Sacramento
+95838,Sacramento,Sacramento
+95840,Sacramento,Sacramento
+95841,Sacramento,Sacramento
+95842,Sacramento,Sacramento
+95843,Antelope,Sacramento
+95851,Sacramento,Sacramento
+95852,Sacramento,Sacramento
+95853,Sacramento,Sacramento
+95860,Sacramento,Sacramento
+95864,Sacramento,Sacramento
+95865,Sacramento,Sacramento
+95866,Sacramento,Sacramento
+95867,Sacramento,Sacramento
+95887,Sacramento,Sacramento
+95894,Sacramento,Sacramento
+95899,Sacramento,Sacramento
+95901,Marysville,Yuba
+95903,Beale Afb,Yuba
+95910,Alleghany,Sierra
+95912,Arbuckle,Colusa
+95913,Artois,Glenn
+95914,Bangor,Butte
+95915,Belden,Plumas
+95916,Berry Creek,Butte
+95917,Biggs,Butte
+95918,Browns Valley,Yuba
+95919,Brownsville,Yuba
+95920,Butte City,Glenn
+95922,Camptonville,Yuba
+95923,Canyon Dam,Plumas
+95924,Cedar Ridge,Nevada
+95925,Challenge,Yuba
+95926,Chico,Butte
+95927,Chico,Butte
+95928,Chico,Butte
+95929,Chico,Butte
+95930,Clipper Mills,Butte
+95932,Colusa,Colusa
+95934,Crescent Mills,Plumas
+95935,Dobbins,Yuba
+95936,Downieville,Sierra
+95937,Dunnigan,Yolo
+95938,Durham,Butte
+95939,Elk Creek,Glenn
+95940,Feather Falls,Butte
+95941,Forbestown,Butte
+95942,Forest Ranch,Butte
+95943,Glenn,Glenn
+95944,Goodyears Bar,Sierra
+95945,Grass Valley,Nevada
+95946,Penn Valley,Nevada
+95947,Greenville,Plumas
+95948,Gridley,Butte
+95949,Grass Valley,Nevada
+95950,Grimes,Colusa
+95951,Hamilton City,Glenn
+95953,Live Oak,Sutter
+95954,Magalia,Butte
+95955,Maxwell,Colusa
+95956,Meadow Valley,Plumas
+95957,Meridian,Sutter
+95958,Nelson,Butte
+95959,Nevada City,Nevada
+95960,North San Juan,Nevada
+95961,Olivehurst,Yuba
+95962,Oregon House,Yuba
+95963,Orland,Glenn
+95965,Oroville,Butte
+95966,Oroville,Butte
+95967,Paradise,Butte
+95968,Palermo,Butte
+95969,Paradise,Butte
+95970,Princeton,Colusa
+95971,Quincy,Plumas
+95972,Rackerby,Yuba
+95973,Chico,Butte
+95974,Richvale,Butte
+95975,Rough And Ready,Nevada
+95976,Chico,Butte
+95977,Smartville,Nevada
+95978,Stirling City,Butte
+95979,Stonyford,Colusa
+95980,Storrie,Plumas
+95981,Strawberry Valley,Yuba
+95982,Sutter,Sutter
+95983,Taylorsville,Plumas
+95984,Twain,Plumas
+95986,Washington,Nevada
+95987,Williams,Colusa
+95988,Willows,Glenn
+95991,Yuba City,Sutter
+95992,Yuba City,Sutter
+95993,Yuba City,Sutter
+96001,Redding,Shasta
+96002,Redding,Shasta
+96003,Redding,Shasta
+96006,Adin,Modoc
+96007,Anderson,Shasta
+96008,Bella Vista,Shasta
+96009,Bieber,Lassen
+96010,Big Bar,Trinity
+96011,Big Bend,Shasta
+96013,Burney,Shasta
+96014,Callahan,Siskiyou
+96015,Canby,Modoc
+96016,Cassel,Shasta
+96017,Castella,Shasta
+96019,Shasta Lake,Shasta
+96020,Chester,Plumas
+96021,Corning,Tehama
+96022,Cottonwood,Shasta
+96023,Dorris,Siskiyou
+96024,Douglas City,Trinity
+96025,Dunsmuir,Siskiyou
+96027,Etna,Siskiyou
+96028,Fall River Mills,Shasta
+96029,Flournoy,Tehama
+96031,Forks Of Salmon,Siskiyou
+96032,Fort Jones,Siskiyou
+96033,French Gulch,Shasta
+96034,Gazelle,Siskiyou
+96035,Gerber,Tehama
+96037,Greenview,Siskiyou
+96038,Grenada,Siskiyou
+96039,Happy Camp,Siskiyou
+96040,Hat Creek,Shasta
+96041,Hayfork,Trinity
+96044,Hornbrook,Siskiyou
+96046,Hyampom,Trinity
+96047,Igo,Shasta
+96048,Junction City,Trinity
+96049,Redding,Shasta
+96050,Klamath River,Siskiyou
+96051,Lakehead,Shasta
+96052,Lewiston,Trinity
+96054,Lookout,Modoc
+96055,Los Molinos,Tehama
+96056,Mcarthur,Lassen
+96057,Mccloud,Siskiyou
+96058,Macdoel,Siskiyou
+96059,Manton,Tehama
+96061,Mill Creek,Tehama
+96062,Millville,Shasta
+96063,Mineral,Tehama
+96064,Montague,Siskiyou
+96065,Montgomery Creek,Shasta
+96067,Mount Shasta,Siskiyou
+96068,Nubieber,Lassen
+96069,Oak Run,Shasta
+96070,Obrien,Shasta
+96071,Old Station,Shasta
+96073,Palo Cedro,Shasta
+96074,Paskenta,Tehama
+96075,Paynes Creek,Tehama
+96076,Platina,Shasta
+96078,Proberta,Tehama
+96079,Shasta Lake,Shasta
+96080,Red Bluff,Tehama
+96084,Round Mountain,Shasta
+96085,Scott Bar,Siskiyou
+96086,Seiad Valley,Siskiyou
+96087,Shasta,Shasta
+96088,Shingletown,Shasta
+96089,Shasta Lake,Shasta
+96090,Tehama,Tehama
+96091,Trinity Center,Trinity
+96092,Vina,Tehama
+96093,Weaverville,Trinity
+96094,Weed,Siskiyou
+96095,Whiskeytown,Shasta
+96096,Whitmore,Shasta
+96097,Yreka,Siskiyou
+96099,Redding,Shasta
+96101,Alturas,Modoc
+96103,Blairsden-graeagle,Plumas
+96104,Cedarville,Modoc
+96105,Chilcoot,Plumas
+96106,Clio,Plumas
+96107,Coleville,Mono
+96108,Davis Creek,Modoc
+96109,Doyle,Lassen
+96110,Eagleville,Modoc
+96111,Floriston,Nevada
+96112,Fort Bidwell,Modoc
+96113,Herlong,Lassen
+96114,Janesville,Lassen
+96115,Lake City,Modoc
+96116,Likely,Modoc
+96117,Litchfield,Lassen
+96118,Loyalton,Sierra
+96119,Madeline,Lassen
+96120,Markleeville,Alpine
+96121,Milford,Lassen
+96122,Portola,Plumas
+96123,Ravendale,Lassen
+96124,Calpine,Sierra
+96125,Sierra City,Sierra
+96126,Sierraville,Sierra
+96127,Susanville,Lassen
+96128,Standish,Lassen
+96129,Beckwourth,Plumas
+96130,Susanville,Lassen
+96132,Termo,Lassen
+96133,Topaz,Mono
+96134,Tulelake,Siskiyou
+96135,Vinton,Plumas
+96136,Wendel,Lassen
+96137,Westwood,Lassen
+96140,Carnelian Bay,Placer
+96141,Homewood,Placer
+96142,Tahoma,El Dorado
+96143,Kings Beach,Placer
+96145,Tahoe City,Placer
+96146,Olympic Valley,Placer
+96148,Tahoe Vista,Placer
+96150,South Lake Tahoe,El Dorado
+96151,South Lake Tahoe,El Dorado
+96152,South Lake Tahoe,El Dorado
+96154,South Lake Tahoe,El Dorado
+96155,South Lake Tahoe,El Dorado
+96156,South Lake Tahoe,El Dorado
+96157,South Lake Tahoe,El Dorado
+96158,South Lake Tahoe,El Dorado
+96160,Truckee,Nevada
+96161,Truckee,Nevada
+96162,Truckee,Nevada

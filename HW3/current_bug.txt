@@ -1,0 +1,3 @@
+点退出会报错
+存储玩完的game --> refresh the csv file
+exception 得扔出去

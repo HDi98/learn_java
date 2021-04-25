@@ -69,15 +69,22 @@ public class SearchController extends WordNerdController {
 		searchView.gameComboBox.valueProperty().addListener((observable, oldValue, newValue) ->{
 			if (searchView.gameComboBox.getSelectionModel().getSelectedIndex() >= 0) {
 				int newChoice = searchView.gameComboBox.getSelectionModel().getSelectedIndex();
+				String inputTokens = searchView.searchTextField.getText();
 				switch (newChoice) {
 				case 0: {
-					refreshSearchTable(WordNerdModel.scoreFromFile);
+					ObservableList<Score> tmplst = FXCollections.observableArrayList();
+					for (Score s: WordNerdModel.scoreFromFile) {
+						if (iscontain(s.getPuzzleWord(), inputTokens)) {
+							tmplst.add(s);
+						}
+					}
+					refreshSearchTable(tmplst);
 					break;
 				}
 				case 1: {
 					ObservableList<Score> tmplst = FXCollections.observableArrayList();
 					for (Score s: WordNerdModel.scoreFromFile) {
-						if (s.getGameId() == 0) {
+						if (s.getGameId() == 0 && iscontain(s.getPuzzleWord(), inputTokens)) {
 							tmplst.add(s);
 						}
 					}
@@ -87,7 +94,7 @@ public class SearchController extends WordNerdController {
 				case 2: {
 					ObservableList<Score> tmplst = FXCollections.observableArrayList();
 					for (Score s: WordNerdModel.scoreFromFile) {
-						if (s.getGameId() == 1) {
+						if (s.getGameId() == 1 && iscontain(s.getPuzzleWord(), inputTokens)) {
 							tmplst.add(s);
 						}
 					}
@@ -104,12 +111,21 @@ public class SearchController extends WordNerdController {
 		// finish the binding for searchTextField part
 		// a terrible bug happens! when deleting there would be no more things
 		searchView.searchTextField.textProperty().addListener((observable, oldValue, newValue) ->{
+			System.out.println("change from " + oldValue + " to " + newValue);
 			ObservableList<Score> tmplst = FXCollections.observableArrayList();
 			String inputTokens = searchView.searchTextField.getText();
-			for (Score s: searchView.searchTableView.getItems()) {
+			
+			for (Score s: WordNerdModel.scoreFromFile) {
 				String tmp = s.getPuzzleWord();
 				if (iscontain(tmp, inputTokens)) {
-					tmplst.add(s);
+					if (searchView.gameComboBox.getSelectionModel().getSelectedIndex() > 0) {
+						if (searchView.gameComboBox.getValue().equals(s.getGameName())) {
+							tmplst.add(s);
+						}
+					}else {
+						tmplst.add(s);
+					}
+					
 				}
 			}
 			refreshSearchTable(tmplst);

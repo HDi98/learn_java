@@ -78,11 +78,11 @@ public class Hangman extends Game{
 	/** countDashes() returns the number of dashes in a clue String */ 
 	int countDashes(String word) {
 		StringBuilder cntDash = new StringBuilder(word);
-		int init = cntDash.indexOf("-");
+		int init = cntDash.indexOf("_");
 		int cnt = 0;
 		while (init != -1) {
 			// begin from the index to find the next -
-			init = cntDash.indexOf("-", init+1);
+			init = cntDash.indexOf("_", init+1);
 			cnt++;
 		}
 		return cnt;

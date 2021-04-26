@@ -80,7 +80,11 @@ public class WordNerd extends Application{
 			root.getChildren().clear();
 			root.setTop(wordNerdView.menuBar);
 			root.setCenter(wordNerdView.openingGrid);
-			GameView.wordTimer.timeline.stop(); 
+			try {
+				GameView.wordTimer.timeline.stop(); 
+			}catch (Exception e1) {				
+			}
+			
 		});
 		
 		//bind handler for changing word source file
@@ -93,8 +97,14 @@ public class WordNerd extends Application{
 					new ExtensionFilter("All Files", "*.*"));
 			File file = null;
 			if ((file = fileChooser.showOpenDialog(null)) != null) {
-				WordNerdModel.readWordsFile(file.getAbsolutePath());
-				wordNerdView.wordSourceMenuItem.setText("Words from: " + file.getName());
+				try {
+					WordNerdModel.readWordsFile(file.getAbsolutePath());
+					wordNerdView.wordSourceMenuItem.setText("Words from: " + file.getName());
+				} catch (InvalidWordSourceException i) {
+					i.showAlert();
+				}
+				
+				
 			}
 		});
 

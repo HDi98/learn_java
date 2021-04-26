@@ -8,6 +8,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 public class Score {
+	
 	IntegerProperty gameId = new SimpleIntegerProperty();
 	StringProperty puzzleWord = new SimpleStringProperty();
 	IntegerProperty timeStamp = new SimpleIntegerProperty();
@@ -29,6 +30,14 @@ public class Score {
 		}
 	}
 
+	@Override
+	public String toString() {
+		String tmp = gameId + "," + puzzleWord + ";" + timeStamp + ";" + score;
+		return tmp;
+	}
+	
+	
+	
 	public String getGameName() {
 		return gameName.get();
 	}

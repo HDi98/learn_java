@@ -183,6 +183,7 @@ public class TwisterController extends WordNerdController{
 			switch(n) {
 			case GameView.THUMBS_UP_INDEX:{
 				//calculate the total correct word to renew the topmessage
+				
 				int total_count = 0;
 				for (int i = 0; i < twister.twisterRound.getSubmittedListsByWordLength().size(); i++) {
 					total_count += twister.twisterRound.getSubmittedListsByWordLength(i).size();
@@ -213,6 +214,7 @@ public class TwisterController extends WordNerdController{
 						
 			
 			// part 4: check if the game ends: seems also related to solutionListViews, count the num
+			// also in this part add to the score.csv
 			int count = 0;
 			for (int i = 0; i < twister.twisterRound.getSubmittedListsByWordLength().size(); i++) {
 				count += twister.twisterRound.getSubmittedListsByWordLength(i).size();
@@ -222,6 +224,8 @@ public class TwisterController extends WordNerdController{
 				GameView.wordTimer.timeline.stop();
 				twister.twisterRound.setIsRoundComplete(true);
 				twisterView.smileyButton.setGraphic(twisterView.smileyImageViews[GameView.SMILEY_INDEX]);
+				
+				Score thisRound = new Score(1, twister.twisterRound.getPuzzleWord(), GameView.wordTimer.timeline.getCycleCount(), Float.parseFloat(twister.getScoreString()));
 			}
 		}
 		

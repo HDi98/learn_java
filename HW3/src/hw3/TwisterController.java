@@ -46,6 +46,14 @@ public class TwisterController extends WordNerdController{
 			twisterView.clueButtons[i].setOnAction(new ClueButtonHandler());
 			twisterView.answerButtons[i].setOnAction(new AnswerButtonHandler());
 		}
+		
+		//when the game ends, add the scoreString to score.csv
+		if (twister.twisterRound.getIsRoundComplete()) {
+			Score thisRound = new Score(1, twister.twisterRound.getPuzzleWord(), GameView.wordTimer.timeline.getCycleCount(), Float.parseFloat(twister.getScoreString()));
+			WordNerdModel.writeScore(thisRound.toString());
+		}
+		
+		
 	}
 	
 	@Override
@@ -66,6 +74,7 @@ public class TwisterController extends WordNerdController{
 		GameView.wordTimer.timeline.setOnFinished(event -> { 
 			twisterView.smileyButton.setGraphic(twisterView.smileyImageViews[GameView.SADLY_INDEX]);
 			twister.twisterRound.setIsRoundComplete(true);
+			
 		});
 		
 		//bind the roundComplete result to the view
@@ -224,8 +233,6 @@ public class TwisterController extends WordNerdController{
 				GameView.wordTimer.timeline.stop();
 				twister.twisterRound.setIsRoundComplete(true);
 				twisterView.smileyButton.setGraphic(twisterView.smileyImageViews[GameView.SMILEY_INDEX]);
-				
-				Score thisRound = new Score(1, twister.twisterRound.getPuzzleWord(), GameView.wordTimer.timeline.getCycleCount(), Float.parseFloat(twister.getScoreString()));
 			}
 		}
 		

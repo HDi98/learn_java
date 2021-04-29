@@ -49,6 +49,14 @@ public class HangmanController extends WordNerdController {
 		for (int i = 0; i < hangmanView.keyboardButtons.length; i++) {
 			hangmanView.keyboardButtons[i].setOnAction(new KeyboardButtonHandler() );
 		}
+		
+		//when the game ends, add the scoreString to score.csv
+		if (hangman.hangmanRound.getIsRoundComplete()) {
+			Score thisRound = new Score(0, hangman.hangmanRound.getPuzzleWord(), GameView.wordTimer.timeline.getCycleCount(), Float.parseFloat(hangman.getScoreString()));
+			System.out.println(thisRound.toString());
+			WordNerdModel.writeScore(thisRound.toString());
+		}
+
 	}
 
 

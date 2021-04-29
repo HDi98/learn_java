@@ -54,17 +54,17 @@ public class Hangman extends Game{
 		while (cnt < (leng+1) / 2){
 			// generating a random number
 			rand = (int)(Math.random() * leng);
-			while (p.charAt(rand) == '-') {
+			while (p.charAt(rand) == '_') {
 				// if already hash the char, then re-generate the key
 				rand = (int)(Math.random() * leng);
 			}
 			String tmp = Character.toString(p.charAt(rand));
 			// test code
 			//System.out.println(tmp);
-			p.setCharAt(rand, '-');
+			p.setCharAt(rand, '_');
 			cnt++;
 			while (p.indexOf(tmp) != -1) {
-				p.setCharAt(p.indexOf(tmp), '-');
+				p.setCharAt(p.indexOf(tmp), '_');
 				cnt++;
 			}
 		}

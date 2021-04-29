@@ -2,9 +2,11 @@
 //andrew id: hdi
 package hw3;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -62,12 +64,9 @@ public class WordNerdModel {
 	
 	static void writeScore(String scoreString) {
 		//to be done!
-		File scoreFile = new File(SCORE_FILE_NAME);
-		try {
-			FileOutputStream out = new FileOutputStream(scoreFile);
-			byte[] score = scoreString.getBytes();
-			out.write(score);
-			out.close();
+		System.out.println("I'm writing into score file!");
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(SCORE_FILE_NAME))) {
+			bw.write(scoreString + "\n");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

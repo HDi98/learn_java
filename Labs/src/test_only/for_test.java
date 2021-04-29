@@ -1,21 +1,21 @@
 package test_only;
 
 
-public class for_test {
+public class for_test implements Runnable{
 	
 
 	
 	
-	public static void main(String[] args) {
-		String a = "Hello";
-		StringBuilder b = new StringBuilder(a);
-		System.out.println(a.length());
-		System.out.println(3/2);
-		System.out.println(a.charAt(1));
-		System.out.println(b.charAt(1));
-		System.out.println(b.indexOf("H", 0));
-		b.setCharAt(2, '-');
-		System.out.println(b.toString());
-	}
+	@Override
+    public void run() {
+        for (int i = 0; i < 20; i++)
+            System.out.println(Thread.currentThread().getName() + " running.");
+    }
+    public static void main(String[] args) {
+         Thread one = new Thread (new for_test());
+         Thread two = new Thread (new for_test());
+         one.start();
+         two.start();
+    }
 
 }

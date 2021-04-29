@@ -19,7 +19,7 @@ public class Score {
 	
 	
 	Score(int gameId, String puzzleWord, int timeStamp, float score){
-		this.gameId.set(gameId);
+		this.gameId.set(gameId); 
 		this.puzzleWord.set(puzzleWord);
 		this.timeStamp.set(timeStamp);
 		this.score.set(score);

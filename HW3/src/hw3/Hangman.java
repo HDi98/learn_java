@@ -105,6 +105,20 @@ public class Hangman extends Game{
 		}
 	}
 	
+	float getScore() {
+		float hitcnt = (float)hangmanRound.getHitCount();
+		float miscnt = (float)hangmanRound.getMissCount();
+		if (miscnt == 0) {
+			// only have two decimal
+			
+			return hitcnt;
+		}
+		else {
+			
+			return hitcnt/miscnt;
+		}
+	}
+	
 
 	/** nextTry() takes next guess and updates hitCount, missCount, and clueWord in hangmanRound. 
 	* Returns INDEX for one of the images defined in GameView (SMILEY_INDEX, THUMBS_UP_INDEX...etc. 

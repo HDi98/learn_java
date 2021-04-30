@@ -122,6 +122,18 @@ public class Twister extends Game{
 		return "Twist to find " + Integer.toString(out) + " of " + Integer.toString(twisterRound.solutionWordsList.size()) + " words";
 	}
 
+	float getScore() {
+		// score = total - submitted
+		int out = 0;
+		for (ObservableList<String> o: twisterRound.submittedListsByWordLength) {
+			out += o.size();
+		}
+		// get the total submitted length
+//		out = twisterRound.solutionWordsList.size() - out;
+		return (float)out / (float)twisterRound.solutionWordsList.size();
+
+	}
+	
 	@Override
 	int nextTry(String guess) {
 		// return the index for guess

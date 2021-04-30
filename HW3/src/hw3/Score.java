@@ -32,7 +32,7 @@ public class Score {
 
 	@Override
 	public String toString() {
-		String tmp = gameId + "," + puzzleWord + ";" + timeStamp + ";" + score;
+		String tmp = gameId.get() + "," + puzzleWord.get() + "," + timeStamp.get() + "," + String.format("%.6f", score.get());
 		return tmp;
 	}
 	

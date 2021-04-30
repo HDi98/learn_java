@@ -51,11 +51,11 @@ public class HangmanController extends WordNerdController {
 		}
 		
 		//when the game ends, add the scoreString to score.csv
-		if (hangman.hangmanRound.getIsRoundComplete()) {
-			Score thisRound = new Score(0, hangman.hangmanRound.getPuzzleWord(), GameView.wordTimer.timeline.getCycleCount(), Float.parseFloat(hangman.getScoreString()));
-			System.out.println(thisRound.toString());
-			WordNerdModel.writeScore(thisRound.toString());
-		}
+//		if (hangman.hangmanRound.getIsRoundComplete()) {
+//			Score thisRound = new Score(0, hangman.hangmanRound.getPuzzleWord(), GameView.wordTimer.timeline.getCycleCount(), Float.parseFloat(hangman.getScoreString()));
+//			System.out.println(thisRound.toString());
+//			WordNerdModel.writeScore(thisRound.toString());
+//		}
 
 	}
 
@@ -79,6 +79,11 @@ public class HangmanController extends WordNerdController {
 		GameView.wordTimer.timeline.setOnFinished(event -> { 
 			hangmanView.smileyButton.setGraphic(hangmanView.smileyImageViews[GameView.SADLY_INDEX]);
 			hangman.hangmanRound.setIsRoundComplete(true);
+			
+			Score thisRound = new Score(0, hangman.hangmanRound.getPuzzleWord(), Hangman.HANGMAN_GAME_TIME, hangman.getScore());
+			System.out.println(thisRound.toString());
+			WordNerdModel.writeScore(thisRound.toString());
+
 
 		});
 
@@ -101,6 +106,13 @@ public class HangmanController extends WordNerdController {
 			if (index == GameView.SMILEY_INDEX || index == GameView.SADLY_INDEX ) {
 				GameView.wordTimer.timeline.stop();
 				hangman.hangmanRound.setIsRoundComplete(true);
+				
+				int time =  (int) GameView.wordTimer.timeline.getKeyFrames().get(0).getValues().iterator().next().getTarget().getValue();
+//				System.out.println(time);
+				Score thisRound = new Score(0, hangman.hangmanRound.getPuzzleWord(), Hangman.HANGMAN_GAME_TIME - time, hangman.getScore());
+				System.out.println(thisRound.toString());
+				WordNerdModel.writeScore(thisRound.toString());
+
 			}
 			String scoreString = hangman.getScoreString();
 			hangmanView.scoreLabel.setText(scoreString);

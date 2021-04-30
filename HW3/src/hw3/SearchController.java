@@ -54,7 +54,10 @@ public class SearchController extends WordNerdController {
 		
 		//compare
 		for (int i = 0; i < 26; i++) {
-			if (charcnts1[i] < charcnts2[i]) {
+//			if (charcnts1[i] < charcnts2[i]) {
+//				return false;
+//			}
+			if (charcnts2[i] > 0 && charcnts1[i]==0) {
 				return false;
 			}
 		}		
@@ -109,7 +112,6 @@ public class SearchController extends WordNerdController {
 		
 		
 		// finish the binding for searchTextField part
-		// a terrible bug happens! when deleting there would be no more things
 		searchView.searchTextField.textProperty().addListener((observable, oldValue, newValue) ->{
 			System.out.println("change from " + oldValue + " to " + newValue);
 			ObservableList<Score> tmplst = FXCollections.observableArrayList();

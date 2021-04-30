@@ -2,6 +2,7 @@
 //andrew id: hdi
 package hw3;
 
+import java.util.Collections;
 import java.util.List;
 
 import javafx.collections.FXCollections;
@@ -44,6 +45,7 @@ public class TwisterRound extends GameRound{
 	public void setSubmittedListsByWordLength(String word) {
 		int tmp = word.length() - Twister.TWISTER_MIN_WROD_LENGTH;
 		submittedListsByWordLength.get(tmp).add(word);
+		Collections.sort(submittedListsByWordLength.get(tmp));
 	}
 	public ObservableList<ObservableList<String>> submittedListsByWordLengthproperty(){
 		return submittedListsByWordLength;

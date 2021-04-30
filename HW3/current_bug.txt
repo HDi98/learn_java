@@ -1,5 +1,1 @@
-
-存储玩完的game --> refresh the csv file
-
-
-存储当且仅当： time out or finish
+存6位小数，但是展示保留两位小数

@@ -28,7 +28,7 @@ public class WordNerdModel {
 				fileContent.append(tmp + "\n");				
 				if (!tmp.matches("^[a-zA-Z]*$")) {
 					// the exception will be catch in WordNerd.java
-					throw new InvalidWordSourceException(tmp);
+					throw new InvalidWordSourceException("Check word source format!");
 				}
 			}
 			wordsFromFile = fileContent.toString().split("\n");

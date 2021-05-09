@@ -20,6 +20,7 @@ public class WordNerdModel {
 	public static String SCORE_FILE_NAME = "data/scores.csv";
 	
 	static void readWordsFile(String wordsFilename) {
+		// derived from previous hw
 		try {
 			Scanner fileScanner = new Scanner(new File(wordsFilename));
 			StringBuilder fileContent = new StringBuilder();
@@ -43,6 +44,7 @@ public class WordNerdModel {
 	}
 	
 	static void readScoreFile(String scoreFilename) {
+		// nearly same with readWordsFile
 		scoreFromFile = FXCollections.observableArrayList();
 		try {
 			String[] tmpFiles;
@@ -54,7 +56,8 @@ public class WordNerdModel {
 			tmpFiles = fileContent.toString().split("\n");
 			for (int i = 0; i < tmpFiles.length; i++) {
 				String[] tmpLine = tmpFiles[i].split(",");
-				scoreFromFile.add(new Score(Integer.parseInt(tmpLine[0]), tmpLine[1], Integer.parseInt(tmpLine[2]), Float.parseFloat(tmpLine[3])));
+				String score2decimal = String.format("%.2f", Float.parseFloat(tmpLine[3]));
+				scoreFromFile.add(new Score(Integer.parseInt(tmpLine[0]), tmpLine[1], Integer.parseInt(tmpLine[2]), Float.parseFloat(score2decimal)));
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -62,8 +65,9 @@ public class WordNerdModel {
 	}
 	
 	static void writeScore(String scoreString) {
-		//to be done!
+		// use bufferedWriter to write into the file
 		System.out.println("I'm writing into score file!");
+		// use para=true to add to the current score file
 		try (BufferedWriter bw = new BufferedWriter(new FileWriter(SCORE_FILE_NAME, true))) {
 			bw.write(scoreString + "\n");
 		} catch (FileNotFoundException e) {

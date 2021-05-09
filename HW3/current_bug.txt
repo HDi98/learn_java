@@ -1,1 +1,9 @@
 存6位小数，但是展示保留两位小数
+
+
+shuwu bug
+1. bad word source，会扔exception，但是wordsource也发生了改变
+2. hangman时间到了不会写入
+3. hangman第一个就猜对的话score没有两位小数
+4. search只要有1个就算search成功
+5. 6位小数保存在score file但是存了7位

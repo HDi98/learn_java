@@ -35,7 +35,8 @@ public class ScoreController extends WordNerdController{
 
 	@Override
 	void setupBindings() {
-		//to be implemented in HW3
+		// no bindings in score related 
+		// the score just read the data from score.csv and display the chart
 	}
 	
 	

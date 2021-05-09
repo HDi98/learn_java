@@ -16,11 +16,13 @@ public class Score {
 	IntegerProperty timeStamp = new SimpleIntegerProperty();
 	FloatProperty score = new SimpleFloatProperty();
 	private StringProperty gameName = new SimpleStringProperty();
+	private StringProperty scoreString = new SimpleStringProperty();
 	
 	Score() {}
 	
 	
 	Score(int gameId, String puzzleWord, int timeStamp, float score){
+		// set the gameName and bind it to the score Chart so that the score chart will display the correct name
 		this.gameId.set(gameId); 
 		this.puzzleWord.set(puzzleWord);
 		this.timeStamp.set(timeStamp);
@@ -30,19 +32,25 @@ public class Score {
 		}else {
 			this.gameName.set("Twister");
 		}
+		scoreString.set(String.format("%.2f", score));
 	}
 
 	@Override
 	public String toString() {
+		// write the data to the score.csv
 		String tmp = gameId.get() + "," + puzzleWord.get() + "," + timeStamp.get() + "," + String.format("%.6f", score.get());
 		return tmp;
 	}
 	
 	
-	
+	// some getters and setters
 	public String getGameName() {
 		return gameName.get();
 	}
+	public String getScoreString() {
+		return scoreString.get();
+	}
+	
 
 	public int getGameId() {
 		return gameId.get();

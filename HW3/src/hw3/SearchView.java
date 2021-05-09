@@ -70,7 +70,7 @@ public class SearchView{
 	    column3.setCellValueFactory(new PropertyValueFactory<>("timeStamp"));
 	    
 	    TableColumn<Score, String> column4 = new TableColumn<>("Score");
-	    column4.setCellValueFactory(new PropertyValueFactory<>("score"));
+	    column4.setCellValueFactory(new PropertyValueFactory<>("scoreString"));
 
 	    
 	    searchTableView.getColumns().add(column1);

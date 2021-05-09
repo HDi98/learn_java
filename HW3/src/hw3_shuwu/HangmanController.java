@@ -1,6 +1,4 @@
-//name: haonan di
-//andrew id: hdi
-package hw3;
+package hw3_shuwu;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -11,7 +9,7 @@ import javafx.scene.layout.VBox;
 //DO NOT CHANGE THIS CLASS
 public class HangmanController extends WordNerdController {
 
-	HangmanView hangmanView; 
+	HangmanView hangmanView;
 	Hangman hangman;
 
 
@@ -38,37 +36,29 @@ public class HangmanController extends WordNerdController {
 
 		//bind newWordButton to start a new round, refresh the view,
 		//restart the timer, and setupBindings for new HangmanRound
-		hangmanView.newWordButton.setOnAction(event -> { 
+		hangmanView.newWordButton.setOnAction(event -> {
 			hangman.hangmanRound = hangman.setupRound();
 			hangmanView.refreshGameRoundView(hangman.hangmanRound);
 			GameView.wordTimer.restart(Hangman.HANGMAN_GAME_TIME);
 			setupBindings();
 		});
-		
+
 		//attach handlers to all keyboardButtons
 		for (int i = 0; i < hangmanView.keyboardButtons.length; i++) {
 			hangmanView.keyboardButtons[i].setOnAction(new KeyboardButtonHandler() );
 		}
-		
-		//when the game ends, add the scoreString to score.csv
-//		if (hangman.hangmanRound.getIsRoundComplete()) {
-//			Score thisRound = new Score(0, hangman.hangmanRound.getPuzzleWord(), GameView.wordTimer.timeline.getCycleCount(), Float.parseFloat(hangman.getScoreString()));
-//			System.out.println(thisRound.toString());
-//			WordNerdModel.writeScore(thisRound.toString());
-//		}
-
 	}
 
 
 	/** setupRoundBindings binds GUI components with hangmanRound properties and the timer
-	 * to change clue labels, change smiley button, disable clueGrid and keyboardGrid 
+	 * to change clue labels, change smiley button, disable clueGrid and keyboardGrid
 	 */
 	@Override
 	void setupBindings() {
 
-		//Bind a listener to hangmanRound's clueWordProperty 
-		//so that whenever it changes, the clueLabels should also 
-		//change in hangmanView 
+		//Bind a listener to hangmanRound's clueWordProperty
+		//so that whenever it changes, the clueLabels should also
+		//change in hangmanView
 		hangman.hangmanRound.clueWordProperty().addListener((observable, oldValue, newValue) -> {
 			for (int i = 0; i < hangman.hangmanRound.getClueWord().length(); i++) {
 				hangmanView.clueLabels[i].setText(String.format("%s", newValue.charAt(i)));
@@ -76,14 +66,9 @@ public class HangmanController extends WordNerdController {
 		});
 
 		//When timer runs out, set smiley to sadly, isRoundComplete to true
-		GameView.wordTimer.timeline.setOnFinished(event -> { 
+		GameView.wordTimer.timeline.setOnFinished(event -> {
 			hangmanView.smileyButton.setGraphic(hangmanView.smileyImageViews[GameView.SADLY_INDEX]);
 			hangman.hangmanRound.setIsRoundComplete(true);
-			
-			Score thisRound = new Score(0, hangman.hangmanRound.getPuzzleWord(), Hangman.HANGMAN_GAME_TIME, hangman.getScore());
-			System.out.println(thisRound.toString());
-			WordNerdModel.writeScore(thisRound.toString());
-
 
 		});
 
@@ -105,14 +90,8 @@ public class HangmanController extends WordNerdController {
 			hangmanView.smileyButton.setGraphic(hangmanView.smileyImageViews[index]);
 			if (index == GameView.SMILEY_INDEX || index == GameView.SADLY_INDEX ) {
 				GameView.wordTimer.timeline.stop();
-				hangman.hangmanRound.setIsRoundComplete(true);
-				
-				int time =  (int) GameView.wordTimer.timeline.getCurrentTime().toSeconds();
-//				System.out.println(time);
-				Score thisRound = new Score(0, hangman.hangmanRound.getPuzzleWord(), Hangman.HANGMAN_GAME_TIME - time, hangman.getScore());
-				System.out.println(thisRound.toString());
-				WordNerdModel.writeScore(thisRound.toString());
 
+				hangman.hangmanRound.setIsRoundComplete(true);
 			}
 			String scoreString = hangman.getScoreString();
 			hangmanView.scoreLabel.setText(scoreString);

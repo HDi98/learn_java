@@ -1,14 +1,15 @@
 package final_prepare;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class TicketWindow implements Runnable{
 
 	static int ticketSoldCount;
-	static boolean isWindowOpen;
+	static boolean isWindowOpen = true;
 	
 	int ticketProcessingTime;
-	List<Customer> customerList;
+	List<Customer> customerList = new ArrayList<>();
 	
 	TicketWindow(int ticketProcessingTime){
 		this.ticketProcessingTime = ticketProcessingTime;
@@ -17,6 +18,7 @@ public class TicketWindow implements Runnable{
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
+		
 		while (isWindowOpen) {
 			Customer newCustomer = null;
 			synchronized (MovieHall.customerQueue) {
@@ -29,8 +31,15 @@ public class TicketWindow implements Runnable{
 				}else {
 					System.out.println("                       Customer " + newCustomer.id + " bought " + newCustomer.numberOfTickets + " tickets");
 				}
-				
+				ticketSoldCount += newCustomer.numberOfTickets;
+				customerList.add(newCustomer);
 			}
+			
+			if (ticketSoldCount >= MovieHall.maxSeats) {
+				isWindowOpen = false;
+			}
+			
+			
 		}//end of while 
 		
 	}

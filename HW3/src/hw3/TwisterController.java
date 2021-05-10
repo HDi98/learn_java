@@ -238,7 +238,7 @@ public class TwisterController extends WordNerdController{
 				twister.twisterRound.setIsRoundComplete(true);
 				twisterView.smileyButton.setGraphic(twisterView.smileyImageViews[GameView.SMILEY_INDEX]);
 				
-				int time =  (int) GameView.wordTimer.timeline.getKeyFrames().get(0).getValues().iterator().next().getTarget().getValue();
+				int time =  (int) GameView.wordTimer.timeline.getCurrentTime().toSeconds();
 				
 				Score thisRound = new Score(1, twister.twisterRound.getPuzzleWord(),Twister.TWISTER_GAME_TIME - time, twister.getScore());
 				WordNerdModel.writeScore(thisRound.toString());

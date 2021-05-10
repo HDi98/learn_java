@@ -43,4 +43,8 @@ public class TicketWindow implements Runnable{
 		}//end of while 
 		
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d3b8d60b52c2245e0b77166aa78791aa310782a3

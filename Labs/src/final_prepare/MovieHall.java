@@ -124,4 +124,8 @@ public class MovieHall {
 		assertTrue("Max tickets", maxTickets <= MAX_TICKETS);
 	}
 	
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d3b8d60b52c2245e0b77166aa78791aa310782a3

@@ -1,4 +1,6 @@
-package final_prepare;
+// name: Haonan Di
+// andrew id: hdi
+package finals;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,17 +27,25 @@ public class TicketWindow implements Runnable{
 				newCustomer = MovieHall.customerQueue.poll();
 			}
 			if (newCustomer != null) {
-				ticketProcessingTime = newCustomer.numberOfTickets * ticketProcessingTime;
+				int sleepTime = newCustomer.numberOfTickets * ticketProcessingTime;
+				try {
+					Thread.sleep(sleepTime);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
 				if (newCustomer instanceof ImpatientCustomer) {
-					System.out.println("                       Impatient Customer " + newCustomer.id + " bought " + newCustomer.numberOfTickets + " tickets");
+					System.out.println("                       ImpatientCustomer" + newCustomer.id + " bought " + newCustomer.numberOfTickets + " tickets");
 				}else {
-					System.out.println("                       Customer " + newCustomer.id + " bought " + newCustomer.numberOfTickets + " tickets");
+					System.out.println("                       Customer" + newCustomer.id + " bought " + newCustomer.numberOfTickets + " tickets");
 				}
 				ticketSoldCount += newCustomer.numberOfTickets;
 				customerList.add(newCustomer);
 			}
 			
 			if (ticketSoldCount >= MovieHall.maxSeats) {
+				// only way to set the window to close
 				isWindowOpen = false;
 			}
 			

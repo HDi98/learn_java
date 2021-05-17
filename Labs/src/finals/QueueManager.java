@@ -1,4 +1,6 @@
-package final_prepare;
+// name: Haonan Di
+// andrew id: hdi
+package finals;
 
 import java.util.Random;
 
@@ -41,6 +43,7 @@ public class QueueManager implements Runnable{
 					e.printStackTrace();
 				}
 				int choice = random.nextInt(2);
+				// 50% to be an impatient customer
 				if (choice == 0) {
 					Customer newCustomer = new Customer();
 					newCustomer.joinQueue();

@@ -1,8 +1,10 @@
-package final_prepare;
+// name: Haonan Di
+// andrew id: hdi
+package finals;
 
 import java.util.Random;
 
-public class Customer {
+public class Customer implements Comparable<Customer>{
 
 	static int customerCount;
 	
@@ -18,12 +20,19 @@ public class Customer {
 	
 	boolean joinQueue() {
 		
-		System.out.println("Customer " + this.id + " joined Q");
+		System.out.println("Customer" + this.id + " joined Q");
 		synchronized(MovieHall.customerQueue){
 			MovieHall.customerQueue.offer(this);
 		}
-		
-		
+				
 		return true;
 	}
+
+	@Override
+	public int compareTo(Customer o) {
+		// TODO Auto-generated method stub
+		return o.numberOfTickets - this.numberOfTickets;
+	}
+	
+	
 }

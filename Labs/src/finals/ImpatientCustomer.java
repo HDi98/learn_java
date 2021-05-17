@@ -1,4 +1,6 @@
-package final_prepare;
+// name: Haonan Di
+// andrew id: hdi
+package finals;
 
 public class ImpatientCustomer extends Customer{
 
@@ -12,11 +14,11 @@ public class ImpatientCustomer extends Customer{
 	boolean joinQueue() {
 		
 		if (MovieHall.customerQueue.size() > MovieHall.balkQueueLength) {
-			System.out.println("***ImpateientCustomer " + this.id + " balked");
+			System.out.println("***ImpateientCustomer" + this.id + " balked");
 			return false;
 		}else {
 			
-			System.out.println("ImpatientCustomer " + this.id + " joined Q");
+			System.out.println("ImpatientCustomer" + this.id + " joined Q");
 			synchronized(MovieHall.customerQueue){
 				MovieHall.customerQueue.offer(this);
 			}
